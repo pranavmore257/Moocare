@@ -1,0 +1,10 @@
+{
+  "description": "AI-powered app enables farmers and vets to monitor cattle health by analyzing vocalizations, providing alerts and detailed herd health insights.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

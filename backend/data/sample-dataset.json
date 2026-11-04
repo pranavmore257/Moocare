@@ -1,0 +1,47 @@
+[
+  {
+    "sampleId": "JSON-001",
+    "tagId": "#501",
+    "animalName": "Indira",
+    "breed": "Gir",
+    "age": 4,
+    "vocalizationType": "Contact Call",
+    "groundTruthLabel": "healthy",
+    "confidence": 94,
+    "duration": 5.4,
+    "pitch": 145,
+    "hnr": 23.1,
+    "jitter": 1.05,
+    "notes": "Grazing vocalization"
+  },
+  {
+    "sampleId": "JSON-002",
+    "tagId": "#502",
+    "animalName": "Sita",
+    "breed": "Holstein Friesian",
+    "age": 3,
+    "vocalizationType": "Heat Stress Call",
+    "groundTruthLabel": "review",
+    "confidence": 83,
+    "duration": 6.1,
+    "pitch": 240,
+    "hnr": 15.8,
+    "jitter": 2.6,
+    "notes": "Ambient shed temp 39°C"
+  },
+  {
+    "sampleId": "JSON-003",
+    "tagId": "#503",
+    "animalName": "Tara",
+    "breed": "Jersey",
+    "age": 5,
+    "vocalizationType": "Calving Pain Distress",
+    "groundTruthLabel": "concern",
+    "confidence": 90,
+    "duration": 5.9,
+    "pitch": 330,
+    "hnr": 11.9,
+    "jitter": 4.2,
+    "notes": "Stage 2 active labor contraction"
+  }
+]

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #2E7D5B;
+  --color-brand-dark: #1F5A42;
+  --color-brand-light: #E8F3ED;
+  --color-warm: #F8F6F0;
+  --color-warm-card: #FFFFFF;
+  --color-warm-secondary: #F1F3EE;
+  --color-amber: #D99A2B;
+  --color-amber-light: #FFF4D6;
+  --color-danger: #C94C4C;
+  --color-danger-light: #FDEAEA;
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background-color: #0F3426;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Thin scrollbars for desktop */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(46,125,91,0.25) transparent;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(46,125,91,0.25);
+  border-radius: 99px;
+}
+
+@keyframes wave-bar {
+  0%, 100% { transform: scaleY(0.2); }
+  50% { transform: scaleY(1); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+@keyframes recording-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+@keyframes confidence-draw {
+  from { stroke-dashoffset: 282.74; }
+}
+
+@keyframes slow-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes check-appear {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-wave-bar {
+  animation: wave-bar 0.65s ease-in-out infinite;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out both;
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+.animate-recording-dot {
+  animation: recording-dot 1.2s ease-in-out infinite;
+}
+
+.animate-confidence {
+  animation: confidence-draw 1.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+  animation-delay: 0.3s;
+}
+
+.animate-slow-spin {
+  animation: slow-spin 3s linear infinite;
+}
+
+.animate-check-appear {
+  animation: check-appear 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}

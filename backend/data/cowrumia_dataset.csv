@@ -1,0 +1,625 @@
+sample_id,tag_id,animal_name,breed,age,vocalization_type,health_status,confidence,duration_seconds,pitch,peak_freq,hnr,jitter,shimmer,decibels,notes
+COW-BEEF-001,#300,Ganga #001,Angus,6,Normal Pasture Beef Call,healthy,95,1.24,81.1,234.4,3.55,15.0,6.91,80.51,CowRumIA dataset recording (InicialFrecuencias_NEE (1).wav) - Beef Calm
+COW-BEEF-002,#301,Yamuna #002,Simmental,4,Normal Pasture Beef Call,healthy,88,1.702,83.2,93.8,10.21,5.73,3.91,81.99,CowRumIA dataset recording (InicialFrecuencias_NEE (2).wav) - Beef Calm
+COW-BEEF-003,#302,Kaveri #003,Charolais,1,Normal Pasture Beef Call,healthy,94,1.851,78.0,140.6,7.28,3.42,5.8,82.01,CowRumIA dataset recording (Inicial_NEE (1).wav) - Beef Calm
+COW-BEEF-004,#303,Chitra #004,Brahman,4,Normal Pasture Beef Call,healthy,92,1.621,77.4,140.6,3.52,15.0,6.73,80.06,CowRumIA dataset recording (Inicial_NEE (10).wav) - Beef Calm
+COW-BEEF-005,#304,Devaki #005,Brahman,6,Normal Pasture Beef Call,healthy,93,1.349,78.0,140.6,6.36,15.0,5.34,81.82,CowRumIA dataset recording (Inicial_NEE (11).wav) - Beef Calm
+COW-BEEF-006,#305,Anandi #006,Brahman,4,Normal Pasture Beef Call,healthy,96,1.215,82.3,234.4,6.81,15.0,7.01,81.94,CowRumIA dataset recording (Inicial_NEE (12).wav) - Beef Calm
+COW-BEEF-007,#306,Meera #007,Angus,3,Normal Pasture Beef Call,healthy,95,1.383,94.7,93.8,4.26,15.0,2.17,87.9,CowRumIA dataset recording (Inicial_NEE (13).wav) - Beef Calm
+COW-BEEF-008,#307,Durga #008,Hereford,6,Normal Pasture Beef Call,healthy,95,1.578,72.6,234.4,10.61,15.0,5.79,81.69,CowRumIA dataset recording (Inicial_NEE (14).wav) - Beef Calm
+COW-BEEF-009,#308,Tulsi #009,Charolais,2,Normal Pasture Beef Call,healthy,95,1.273,75.2,140.6,3.06,15.0,9.32,82.14,CowRumIA dataset recording (Inicial_NEE (15).wav) - Beef Calm
+COW-BEEF-010,#309,Parvati #010,Hereford,3,Normal Pasture Beef Call,healthy,88,1.642,76.3,140.6,4.54,3.67,6.61,81.46,CowRumIA dataset recording (Inicial_NEE (16).wav) - Beef Calm
+COW-BEEF-011,#310,Radha #011,Charolais,2,Normal Pasture Beef Call,healthy,93,1.578,75.0,281.2,5.21,15.0,7.05,78.68,CowRumIA dataset recording (Inicial_NEE (17).wav) - Beef Calm
+COW-BEEF-012,#311,Lakshmi #012,Charolais,1,Normal Pasture Beef Call,healthy,94,1.618,75.6,234.4,8.02,15.0,5.9,80.8,CowRumIA dataset recording (Inicial_NEE (18).wav) - Beef Calm
+COW-BEEF-013,#312,Bella #013,Hereford,3,Normal Pasture Beef Call,healthy,89,2.831,96.8,93.8,2.92,15.0,6.67,82.27,CowRumIA dataset recording (Inicial_NEE (19).wav) - Beef Calm
+COW-BEEF-014,#313,Daisy #014,Angus,5,Normal Pasture Beef Call,healthy,97,1.315,101.9,93.8,4.45,15.0,8.64,83.05,CowRumIA dataset recording (Inicial_NEE (2).wav) - Beef Calm
+COW-BEEF-015,#314,Molly #015,Angus,5,Normal Pasture Beef Call,healthy,91,2.198,112.4,93.8,0.0,15.0,8.57,81.33,CowRumIA dataset recording (Inicial_NEE (20).wav) - Beef Calm
+COW-BEEF-016,#315,Luna #016,Hereford,4,Normal Pasture Beef Call,healthy,91,1.802,78.4,140.6,5.9,15.0,5.72,80.95,CowRumIA dataset recording (Inicial_NEE (21).wav) - Beef Calm
+COW-BEEF-017,#316,Buttercup #017,Brahman,6,Normal Pasture Beef Call,healthy,93,1.583,72.9,281.2,3.32,15.0,6.31,81.0,CowRumIA dataset recording (Inicial_NEE (22).wav) - Beef Calm
+COW-BEEF-018,#317,Bessie #018,Brahman,2,Normal Pasture Beef Call,healthy,92,1.934,81.2,93.8,1.36,15.0,9.72,80.86,CowRumIA dataset recording (Inicial_NEE (3).wav) - Beef Calm
+COW-BEEF-019,#318,Penny #019,Brahman,3,Normal Pasture Beef Call,healthy,88,1.67,87.8,187.5,0.0,6.45,10.19,79.3,CowRumIA dataset recording (Inicial_NEE (4).wav) - Beef Calm
+COW-BEEF-020,#319,Ruby #020,Brahman,2,Normal Pasture Beef Call,healthy,97,1.62,88.1,93.8,7.83,15.0,2.47,87.24,CowRumIA dataset recording (Inicial_NEE (5).wav) - Beef Calm
+COW-BEEF-021,#320,Rosie #021,Hereford,2,Normal Pasture Beef Call,healthy,88,1.725,80.8,93.8,4.94,15.0,7.35,82.09,CowRumIA dataset recording (Inicial_NEE (6).wav) - Beef Calm
+COW-BEEF-022,#321,Stella #022,Brahman,5,Normal Pasture Beef Call,healthy,95,1.544,81.8,93.8,5.9,15.0,7.15,82.4,CowRumIA dataset recording (Inicial_NEE (7).wav) - Beef Calm
+COW-BEEF-023,#322,Chloe #023,Angus,3,Normal Pasture Beef Call,healthy,88,1.978,90.4,93.8,4.49,15.0,6.88,81.96,CowRumIA dataset recording (Inicial_NEE (8).wav) - Beef Calm
+COW-BEEF-024,#323,Maggie #024,Brahman,1,Normal Pasture Beef Call,healthy,97,1.829,89.6,93.8,5.36,15.0,5.78,82.82,CowRumIA dataset recording (Inicial_NEE (9).wav) - Beef Calm
+COW-BEEF-025,#324,Ganga #025,Angus,6,Normal Pasture Beef Call,healthy,90,1.455,76.7,234.4,2.58,15.0,1.98,84.84,CowRumIA dataset recording (Posta_NEE (1).wav) - Beef Calm
+COW-BEEF-026,#325,Yamuna #026,Hereford,3,Normal Pasture Beef Call,healthy,97,3.12,80.0,93.8,0.0,15.0,9.1,75.36,CowRumIA dataset recording (Posta_NEE (2).wav) - Beef Calm
+COW-BEEF-027,#326,Kaveri #027,Hereford,4,Normal Pasture Beef Call,healthy,97,1.8,106.4,328.1,0.0,15.0,11.33,80.32,CowRumIA dataset recording (Posta_NEE (3).wav) - Beef Calm
+COW-BEEF-028,#327,Chitra #028,Brahman,6,Normal Pasture Beef Call,healthy,94,2.08,800.0,46.9,2.53,11.3,18.11,78.59,CowRumIA dataset recording (Posta_NEE (4).wav) - Beef Calm
+COW-BEEF-029,#328,Devaki #029,Brahman,4,Normal Pasture Beef Call,healthy,88,2.263,191.2,187.5,0.06,15.0,10.34,76.93,CowRumIA dataset recording (Posta_NEE (5).wav) - Beef Calm
+COW-BEEF-030,#329,Anandi #030,Hereford,5,Normal Pasture Beef Call,healthy,96,2.12,800.0,46.9,5.03,14.1,20.78,76.24,CowRumIA dataset recording (Posta_NEE (6).wav) - Beef Calm
+COW-BEEF-031,#330,Meera #031,Hereford,5,Normal Pasture Beef Call,healthy,96,3.2,82.1,234.4,0.0,15.0,11.0,75.58,CowRumIA dataset recording (Posta_NEE (7).wav) - Beef Calm
+COW-BEEF-032,#331,Durga #032,Angus,6,Normal Pasture Beef Call,healthy,91,3.04,800.0,93.8,0.0,15.0,25.0,70.31,CowRumIA dataset recording (Posta_NEE (8).wav) - Beef Calm
+COW-BEEF-033,#332,Tulsi #033,Hereford,3,Normal Pasture Beef Call,healthy,96,3.92,120.0,140.6,0.48,15.0,8.23,77.97,CowRumIA dataset recording (Posta_NEE (9).wav) - Beef Calm
+COW-BEEF-034,#333,Parvati #034,Simmental,2,Normal Pasture Beef Call,healthy,92,1.28,800.0,46.9,0.32,15.0,11.18,80.39,CowRumIA dataset recording (Venaderos_NEE (1).wav) - Beef Calm
+COW-BEEF-035,#334,Radha #035,Angus,1,Normal Pasture Beef Call,healthy,96,2.52,800.0,46.9,0.0,14.0,12.77,75.98,CowRumIA dataset recording (Venaderos_NEE (2).wav) - Beef Calm
+COW-BEEF-036,#335,Lakshmi #036,Simmental,6,Normal Pasture Beef Call,healthy,93,2.36,107.6,234.4,7.4,15.0,10.51,76.42,CowRumIA dataset recording (Venaderos_NEE (3).wav) - Beef Calm
+COW-BEEF-037,#336,Bella #037,Charolais,6,Normal Pasture Beef Call,healthy,93,2.52,102.8,187.5,6.31,15.0,11.51,79.04,CowRumIA dataset recording (Venaderos_NEE (4).wav) - Beef Calm
+COW-BEEF-038,#337,Daisy #038,Hereford,4,Normal Pasture Beef Call,healthy,93,1.72,800.0,46.9,0.0,15.0,15.47,74.36,CowRumIA dataset recording (Venaderos_NEE (5).wav) - Beef Calm
+COW-BEEF-039,#338,Molly #039,Angus,2,Normal Pasture Beef Call,healthy,89,1.96,80.9,93.8,0.0,10.48,8.9,77.62,CowRumIA dataset recording (Venaderos_NEE (6).wav) - Beef Calm
+COW-DAIR-001,#339,Luna #040,Sahiwal,1,Normal Dairy Ruminate Moo,healthy,96,2.04,102.1,93.8,5.79,15.0,6.79,80.71,CowRumIA dataset recording (Berlin_LNE.wav) - Dairy Calm
+COW-DAIR-002,#340,Buttercup #041,Holstein Friesian,6,Normal Dairy Ruminate Moo,healthy,93,1.84,244.9,234.4,4.93,9.76,9.5,76.95,CowRumIA dataset recording (Berlin_Watusi_LNE (1).wav) - Dairy Calm
+COW-DAIR-003,#341,Bessie #042,Guernsey,5,Normal Dairy Ruminate Moo,healthy,90,1.68,242.4,234.4,1.61,15.0,12.6,76.61,CowRumIA dataset recording (Berlin_Watusi_LNE (2).wav) - Dairy Calm
+COW-DAIR-004,#342,Penny #043,Gir,3,Normal Dairy Ruminate Moo,healthy,90,2.12,233.0,234.4,3.79,15.0,7.49,79.11,CowRumIA dataset recording (Berlin_Watusi_LNE (3).wav) - Dairy Calm
+COW-DAIR-005,#343,Ruby #044,Holstein Friesian,3,Normal Dairy Ruminate Moo,healthy,96,3.72,141.6,421.9,0.0,15.0,8.33,72.3,CowRumIA dataset recording (CMYT_LNE (1).wav) - Dairy Calm
+COW-DAIR-006,#344,Rosie #045,Guernsey,1,Normal Dairy Ruminate Moo,healthy,88,1.84,114.0,1031.2,1.14,15.0,6.65,77.04,CowRumIA dataset recording (CMYT_LNE (2).wav) - Dairy Calm
+COW-DAIR-007,#345,Stella #046,Holstein Friesian,6,Normal Dairy Ruminate Moo,healthy,89,3.64,311.7,281.2,0.0,15.0,6.91,76.23,CowRumIA dataset recording (CMYT_LNE (3).wav) - Dairy Calm
+COW-DAIR-008,#346,Chloe #047,Holstein Friesian,2,Normal Dairy Ruminate Moo,healthy,90,2.04,84.8,187.5,8.87,10.04,8.02,82.45,CowRumIA dataset recording (FS_LNE (2).wav) - Dairy Calm
+COW-DAIR-009,#347,Maggie #048,Holstein Friesian,3,Normal Dairy Ruminate Moo,healthy,93,1.2,146.5,430.7,0.0,10.43,13.34,77.98,CowRumIA dataset recording (FS_LNE.wav) - Dairy Calm
+COW-DAIR-010,#348,Ganga #049,Holstein Friesian,2,Normal Dairy Ruminate Moo,healthy,91,1.8,94.1,93.8,4.12,13.5,8.3,80.46,CowRumIA dataset recording (InicialFrecuencias_LNE.wav) - Dairy Calm
+COW-DAIR-011,#349,Yamuna #050,Sahiwal,5,Normal Dairy Ruminate Moo,healthy,92,1.962,92.3,93.8,1.52,15.0,6.73,80.44,CowRumIA dataset recording (Inicial_LNE (1).wav) - Dairy Calm
+COW-DAIR-012,#350,Kaveri #051,Gir,4,Normal Dairy Ruminate Moo,healthy,92,1.963,92.3,93.8,1.73,15.0,6.31,80.66,CowRumIA dataset recording (Inicial_LNE (2).wav) - Dairy Calm
+COW-DAIR-013,#351,Chitra #052,Guernsey,1,Normal Dairy Ruminate Moo,healthy,93,1.92,179.8,187.5,5.81,14.23,8.47,80.37,CowRumIA dataset recording (Inicial_LNE.wav) - Dairy Calm
+COW-DAIR-014,#352,Devaki #053,Holstein Friesian,6,Normal Dairy Ruminate Moo,healthy,90,1.8,124.0,375.0,4.78,12.12,6.26,80.26,CowRumIA dataset recording (NRYT_LNE (1).wav) - Dairy Calm
+COW-DAIR-015,#353,Anandi #054,Guernsey,1,Normal Dairy Ruminate Moo,healthy,97,2.12,120.6,375.0,5.34,12.34,5.86,79.17,CowRumIA dataset recording (NRYT_LNE (10).wav) - Dairy Calm
+COW-DAIR-016,#354,Meera #055,Jersey,2,Normal Dairy Ruminate Moo,healthy,93,3.84,124.0,375.0,0.0,15.0,6.05,75.93,CowRumIA dataset recording (NRYT_LNE (11).wav) - Dairy Calm
+COW-DAIR-017,#355,Durga #056,Jersey,5,Normal Dairy Ruminate Moo,healthy,94,3.2,128.7,375.0,7.18,15.0,5.13,76.61,CowRumIA dataset recording (NRYT_LNE (12).wav) - Dairy Calm
+COW-DAIR-018,#356,Tulsi #057,Holstein Friesian,4,Normal Dairy Ruminate Moo,healthy,96,1.52,124.7,140.6,0.0,15.0,19.06,75.46,CowRumIA dataset recording (NRYT_LNE (2).wav) - Dairy Calm
+COW-DAIR-019,#357,Parvati #058,Sahiwal,2,Normal Dairy Ruminate Moo,healthy,95,2.76,128.7,140.6,0.0,15.0,11.22,75.93,CowRumIA dataset recording (NRYT_LNE (3).wav) - Dairy Calm
+COW-DAIR-020,#358,Radha #059,Jersey,5,Normal Dairy Ruminate Moo,healthy,89,2.08,133.3,421.9,7.32,15.0,7.74,78.64,CowRumIA dataset recording (NRYT_LNE (4).wav) - Dairy Calm
+COW-DAIR-021,#359,Lakshmi #060,Holstein Friesian,4,Normal Dairy Ruminate Moo,healthy,88,3.24,134.1,421.9,9.11,15.0,2.89,82.4,CowRumIA dataset recording (NRYT_LNE (5).wav) - Dairy Calm
+COW-DAIR-022,#360,Bella #061,Jersey,5,Normal Dairy Ruminate Moo,healthy,91,2.6,428.6,375.0,0.0,15.0,15.16,78.01,CowRumIA dataset recording (NRYT_LNE (6).wav) - Dairy Calm
+COW-DAIR-023,#361,Daisy #062,Holstein Friesian,2,Normal Dairy Ruminate Moo,healthy,93,2.36,133.7,421.9,2.51,15.0,11.79,78.9,CowRumIA dataset recording (NRYT_LNE (7).wav) - Dairy Calm
+COW-DAIR-024,#362,Molly #063,Holstein Friesian,5,Normal Dairy Ruminate Moo,healthy,90,2.16,494.8,468.8,2.19,15.0,5.53,79.36,CowRumIA dataset recording (NRYT_LNE (8).wav) - Dairy Calm
+COW-DAIR-025,#363,Luna #064,Holstein Friesian,6,Normal Dairy Ruminate Moo,healthy,92,1.56,126.0,375.0,4.19,15.0,6.22,76.9,CowRumIA dataset recording (NRYT_LNE (9).wav) - Dairy Calm
+COW-DAIR-026,#364,Buttercup #065,Holstein Friesian,6,Normal Dairy Ruminate Moo,healthy,91,2.5,135.6,515.6,4.12,15.0,9.71,77.45,CowRumIA dataset recording (Posta_BNE (1).wav) - Dairy Calm
+COW-DAIR-027,#365,Bessie #066,Sahiwal,3,Normal Dairy Ruminate Moo,healthy,97,2.28,558.1,468.8,0.38,7.87,10.9,76.53,CowRumIA dataset recording (Posta_BNE (2).wav) - Dairy Calm
+COW-DAIR-028,#366,Penny #067,Sahiwal,3,Normal Dairy Ruminate Moo,healthy,89,3.0,631.6,187.5,0.0,15.0,9.97,71.21,CowRumIA dataset recording (Posta_BNE (3).wav) - Dairy Calm
+COW-DAIR-029,#367,Ruby #068,Holstein Friesian,4,Normal Dairy Ruminate Moo,healthy,92,3.6,551.7,46.9,0.0,11.62,10.37,76.1,CowRumIA dataset recording (Posta_BNE (4).wav) - Dairy Calm
+COW-DAIR-030,#368,Rosie #069,Gir,3,Normal Dairy Ruminate Moo,healthy,97,2.638,461.5,468.8,8.64,10.87,7.62,79.87,CowRumIA dataset recording (Posta_BNE (5).wav) - Dairy Calm
+COW-DAIR-031,#369,Stella #070,Holstein Friesian,1,Normal Dairy Ruminate Moo,healthy,90,3.68,113.5,46.9,0.0,10.95,8.05,77.38,CowRumIA dataset recording (Posta_LNE (1).wav) - Dairy Calm
+COW-DAIR-032,#370,Chloe #071,Sahiwal,2,Normal Dairy Ruminate Moo,healthy,92,3.12,110.6,234.4,4.79,15.0,6.55,77.29,CowRumIA dataset recording (Posta_LNE (10).wav) - Dairy Calm
+COW-DAIR-033,#371,Maggie #072,Guernsey,3,Normal Dairy Ruminate Moo,healthy,91,3.04,290.9,281.2,0.0,8.66,10.54,75.74,CowRumIA dataset recording (Posta_LNE (2).wav) - Dairy Calm
+COW-DAIR-034,#372,Ganga #073,Jersey,1,Normal Dairy Ruminate Moo,healthy,97,3.16,93.4,93.8,4.53,10.04,4.38,77.39,CowRumIA dataset recording (Posta_LNE (3).wav) - Dairy Calm
+COW-DAIR-035,#373,Yamuna #074,Sahiwal,5,Normal Dairy Ruminate Moo,healthy,92,2.48,761.9,46.9,0.0,15.0,12.51,78.24,CowRumIA dataset recording (Posta_LNE (4).wav) - Dairy Calm
+COW-DAIR-036,#374,Kaveri #075,Guernsey,6,Normal Dairy Ruminate Moo,healthy,88,2.16,163.3,140.6,7.87,9.26,9.05,80.52,CowRumIA dataset recording (Posta_LNE (5).wav) - Dairy Calm
+COW-DAIR-037,#375,Chitra #076,Holstein Friesian,1,Normal Dairy Ruminate Moo,healthy,90,2.32,110.1,234.4,5.65,15.0,7.43,78.54,CowRumIA dataset recording (Posta_LNE (6).wav) - Dairy Calm
+COW-DAIR-038,#376,Devaki #077,Holstein Friesian,3,Normal Dairy Ruminate Moo,healthy,88,2.36,88.4,93.8,1.13,15.0,12.45,78.54,CowRumIA dataset recording (Posta_LNE (7).wav) - Dairy Calm
+COW-DAIR-039,#377,Anandi #078,Gir,2,Normal Dairy Ruminate Moo,healthy,93,2.56,110.6,234.4,2.32,15.0,8.55,75.98,CowRumIA dataset recording (Posta_LNE (8).wav) - Dairy Calm
+COW-DAIR-040,#378,Meera #079,Guernsey,6,Normal Dairy Ruminate Moo,healthy,93,2.52,104.6,187.5,3.78,15.0,8.53,75.11,CowRumIA dataset recording (Posta_LNE (9).wav) - Dairy Calm
+COW-DAIR-041,#379,Durga #080,Holstein Friesian,4,Normal Dairy Ruminate Moo,healthy,88,2.176,88.9,609.4,0.0,15.0,5.9,72.43,CowRumIA dataset recording (Posta_LNE.wav) - Dairy Calm
+COW-BEEF-001,#300,Tulsi #081,Brahman,5,Agitated Beef Herd Vocalization,concern,97,3.24,149.1,328.1,6.99,15.0,8.17,76.95,CowRumIA dataset recording (Berlin_EE (1).wav) - Beef Distress
+COW-BEEF-002,#301,Parvati #082,Simmental,3,Agitated Beef Herd Vocalization,concern,94,3.68,183.2,187.5,2.79,10.1,9.72,82.36,CowRumIA dataset recording (Berlin_EE (10).wav) - Beef Distress
+COW-BEEF-003,#302,Radha #083,Hereford,5,Agitated Beef Herd Vocalization,concern,92,2.04,193.5,187.5,0.0,14.66,12.05,79.11,CowRumIA dataset recording (Berlin_EE (11).wav) - Beef Distress
+COW-BEEF-004,#303,Lakshmi #084,Hereford,4,Agitated Beef Herd Vocalization,concern,97,2.04,195.9,187.5,3.57,5.96,7.17,81.45,CowRumIA dataset recording (Berlin_EE (12).wav) - Beef Distress
+COW-BEEF-005,#304,Bella #085,Charolais,2,Agitated Beef Herd Vocalization,concern,90,2.0,200.8,187.5,4.94,7.91,8.06,82.47,CowRumIA dataset recording (Berlin_EE (13).wav) - Beef Distress
+COW-BEEF-006,#305,Daisy #086,Charolais,4,Agitated Beef Herd Vocalization,concern,92,2.04,206.9,187.5,4.73,10.59,8.8,81.73,CowRumIA dataset recording (Berlin_EE (14).wav) - Beef Distress
+COW-BEEF-007,#306,Molly #087,Charolais,2,Agitated Beef Herd Vocalization,concern,96,2.56,183.2,187.5,1.57,15.0,10.53,80.38,CowRumIA dataset recording (Berlin_EE (15).wav) - Beef Distress
+COW-BEEF-008,#307,Luna #088,Hereford,2,Agitated Beef Herd Vocalization,concern,89,2.24,236.5,234.4,4.96,14.99,7.15,82.94,CowRumIA dataset recording (Berlin_EE (16).wav) - Beef Distress
+COW-BEEF-009,#308,Buttercup #089,Charolais,5,Agitated Beef Herd Vocalization,concern,92,3.52,200.8,234.4,0.0,15.0,9.23,79.77,CowRumIA dataset recording (Berlin_EE (17).wav) - Beef Distress
+COW-BEEF-010,#309,Bessie #090,Hereford,5,Agitated Beef Herd Vocalization,concern,96,2.48,231.9,234.4,1.42,15.0,5.33,84.04,CowRumIA dataset recording (Berlin_EE (18).wav) - Beef Distress
+COW-BEEF-011,#310,Penny #091,Brahman,2,Agitated Beef Herd Vocalization,concern,96,3.12,227.5,234.4,1.99,14.29,7.41,83.76,CowRumIA dataset recording (Berlin_EE (19).wav) - Beef Distress
+COW-BEEF-012,#311,Ruby #092,Angus,2,Agitated Beef Herd Vocalization,concern,96,2.32,122.4,140.6,9.31,4.2,6.48,84.0,CowRumIA dataset recording (Berlin_EE (2).wav) - Beef Distress
+COW-BEEF-013,#312,Rosie #093,Charolais,2,Agitated Beef Herd Vocalization,concern,89,3.4,208.7,187.5,4.26,15.0,6.88,82.41,CowRumIA dataset recording (Berlin_EE (20).wav) - Beef Distress
+COW-BEEF-014,#313,Stella #094,Charolais,3,Agitated Beef Herd Vocalization,concern,92,2.08,213.3,234.4,8.99,8.72,7.23,83.85,CowRumIA dataset recording (Berlin_EE (21).wav) - Beef Distress
+COW-BEEF-015,#314,Chloe #095,Angus,2,Agitated Beef Herd Vocalization,concern,88,2.04,215.2,187.5,4.15,12.12,7.7,82.81,CowRumIA dataset recording (Berlin_EE (22).wav) - Beef Distress
+COW-BEEF-016,#315,Maggie #096,Charolais,4,Agitated Beef Herd Vocalization,concern,97,2.12,95.8,187.5,0.0,15.0,3.97,81.96,CowRumIA dataset recording (Berlin_EE (23).wav) - Beef Distress
+COW-BEEF-017,#316,Ganga #097,Angus,3,Agitated Beef Herd Vocalization,concern,94,3.96,202.5,187.5,2.19,11.16,7.51,81.88,CowRumIA dataset recording (Berlin_EE (24).wav) - Beef Distress
+COW-BEEF-018,#317,Yamuna #098,Brahman,3,Agitated Beef Herd Vocalization,concern,89,3.4,125.7,234.4,0.0,12.77,9.39,79.03,CowRumIA dataset recording (Berlin_EE (25).wav) - Beef Distress
+COW-BEEF-019,#318,Kaveri #099,Brahman,1,Agitated Beef Herd Vocalization,concern,93,3.84,192.8,750.0,0.0,15.0,8.74,80.87,CowRumIA dataset recording (Berlin_EE (26).wav) - Beef Distress
+COW-BEEF-020,#319,Chitra #100,Angus,1,Agitated Beef Herd Vocalization,concern,96,3.88,400.0,796.9,3.31,15.0,8.74,82.43,CowRumIA dataset recording (Berlin_EE (27).wav) - Beef Distress
+COW-BEEF-021,#320,Devaki #101,Simmental,2,Agitated Beef Herd Vocalization,concern,97,3.68,275.9,843.8,5.32,15.0,8.77,84.06,CowRumIA dataset recording (Berlin_EE (28).wav) - Beef Distress
+COW-BEEF-022,#321,Anandi #102,Angus,6,Agitated Beef Herd Vocalization,concern,90,2.8,211.5,843.8,2.76,15.0,10.5,81.99,CowRumIA dataset recording (Berlin_EE (29).wav) - Beef Distress
+COW-BEEF-023,#322,Meera #103,Brahman,5,Agitated Beef Herd Vocalization,concern,95,3.08,475.2,46.9,0.0,15.0,10.51,79.05,CowRumIA dataset recording (Berlin_EE (3).wav) - Beef Distress
+COW-BEEF-024,#323,Durga #104,Angus,1,Agitated Beef Herd Vocalization,concern,96,2.0,221.2,234.4,3.65,13.08,10.82,80.73,CowRumIA dataset recording (Berlin_EE (30).wav) - Beef Distress
+COW-BEEF-025,#324,Tulsi #105,Simmental,1,Agitated Beef Herd Vocalization,concern,88,2.12,199.2,187.5,5.53,6.51,6.79,83.34,CowRumIA dataset recording (Berlin_EE (31).wav) - Beef Distress
+COW-BEEF-026,#325,Parvati #106,Charolais,2,Agitated Beef Herd Vocalization,concern,91,3.12,204.3,187.5,2.68,6.49,9.95,81.78,CowRumIA dataset recording (Berlin_EE (32).wav) - Beef Distress
+COW-BEEF-027,#326,Radha #107,Simmental,4,Agitated Beef Herd Vocalization,concern,96,2.48,185.3,187.5,1.65,13.08,9.33,82.17,CowRumIA dataset recording (Berlin_EE (33).wav) - Beef Distress
+COW-BEEF-028,#327,Lakshmi #108,Simmental,4,Agitated Beef Herd Vocalization,concern,90,3.16,213.3,234.4,0.0,12.67,9.15,81.17,CowRumIA dataset recording (Berlin_EE (34).wav) - Beef Distress
+COW-BEEF-029,#328,Bella #109,Hereford,3,Agitated Beef Herd Vocalization,concern,89,3.88,207.8,187.5,0.0,13.32,7.57,82.89,CowRumIA dataset recording (Berlin_EE (35).wav) - Beef Distress
+COW-BEEF-030,#329,Daisy #110,Charolais,1,Agitated Beef Herd Vocalization,concern,91,3.2,94.1,187.5,7.74,15.0,3.48,85.07,CowRumIA dataset recording (Berlin_EE (36).wav) - Beef Distress
+COW-BEEF-031,#330,Molly #111,Angus,1,Agitated Beef Herd Vocalization,concern,96,3.88,97.6,187.5,12.73,5.61,3.39,85.55,CowRumIA dataset recording (Berlin_EE (37).wav) - Beef Distress
+COW-BEEF-032,#331,Luna #112,Brahman,4,Agitated Beef Herd Vocalization,concern,93,2.16,202.5,187.5,6.7,8.95,3.9,85.5,CowRumIA dataset recording (Berlin_EE (38).wav) - Beef Distress
+COW-BEEF-033,#332,Buttercup #113,Angus,5,Agitated Beef Herd Vocalization,concern,91,3.36,95.6,187.5,4.22,7.47,4.04,83.19,CowRumIA dataset recording (Berlin_EE (39).wav) - Beef Distress
+COW-BEEF-034,#333,Bessie #114,Hereford,3,Agitated Beef Herd Vocalization,concern,95,3.2,201.7,187.5,1.26,9.2,10.15,82.16,CowRumIA dataset recording (Berlin_EE (4).wav) - Beef Distress
+COW-BEEF-035,#334,Penny #115,Simmental,5,Agitated Beef Herd Vocalization,concern,92,2.64,101.3,187.5,6.05,15.0,7.42,79.7,CowRumIA dataset recording (Berlin_EE (40).wav) - Beef Distress
+COW-BEEF-036,#335,Ruby #116,Charolais,4,Agitated Beef Herd Vocalization,concern,94,2.36,800.0,140.6,2.44,14.02,15.01,78.84,CowRumIA dataset recording (Berlin_EE (5).wav) - Beef Distress
+COW-BEEF-037,#336,Rosie #117,Angus,1,Agitated Beef Herd Vocalization,concern,94,3.4,800.0,46.9,0.64,15.0,11.21,78.78,CowRumIA dataset recording (Berlin_EE (6).wav) - Beef Distress
+COW-BEEF-038,#337,Stella #118,Angus,2,Agitated Beef Herd Vocalization,concern,94,3.76,800.0,46.9,3.52,11.1,13.53,79.85,CowRumIA dataset recording (Berlin_EE (7).wav) - Beef Distress
+COW-BEEF-039,#338,Chloe #119,Angus,4,Agitated Beef Herd Vocalization,concern,91,2.68,189.0,187.5,2.84,9.72,7.32,82.47,CowRumIA dataset recording (Berlin_EE (8).wav) - Beef Distress
+COW-BEEF-040,#339,Maggie #120,Simmental,1,Agitated Beef Herd Vocalization,concern,96,3.32,207.8,187.5,9.46,3.62,5.17,83.18,CowRumIA dataset recording (Berlin_EE (9).wav) - Beef Distress
+COW-BEEF-041,#340,Ganga #121,Simmental,1,Agitated Beef Herd Vocalization,concern,91,2.4,200.8,187.5,1.56,15.0,8.9,77.38,CowRumIA dataset recording (Posta_EE (1).wav) - Beef Distress
+COW-BEEF-042,#341,Yamuna #122,Hereford,6,Agitated Beef Herd Vocalization,concern,93,2.92,296.3,281.2,7.97,15.0,9.05,78.52,CowRumIA dataset recording (Posta_EE (10).wav) - Beef Distress
+COW-BEEF-043,#342,Kaveri #123,Brahman,3,Agitated Beef Herd Vocalization,concern,97,3.16,122.1,234.4,6.06,15.0,7.65,80.18,CowRumIA dataset recording (Posta_EE (11).wav) - Beef Distress
+COW-BEEF-044,#343,Chitra #124,Brahman,3,Agitated Beef Herd Vocalization,concern,90,2.8,289.2,281.2,14.59,15.0,9.72,80.14,CowRumIA dataset recording (Posta_EE (12).wav) - Beef Distress
+COW-BEEF-045,#344,Devaki #125,Charolais,3,Agitated Beef Herd Vocalization,concern,90,2.2,290.9,281.2,17.15,15.0,8.69,81.18,CowRumIA dataset recording (Posta_EE (13).wav) - Beef Distress
+COW-BEEF-046,#345,Anandi #126,Hereford,6,Agitated Beef Herd Vocalization,concern,91,3.96,311.7,281.2,0.0,15.0,9.01,78.02,CowRumIA dataset recording (Posta_EE (14).wav) - Beef Distress
+COW-BEEF-047,#346,Meera #127,Charolais,5,Agitated Beef Herd Vocalization,concern,92,2.565,181.8,562.5,11.4,15.0,6.87,79.86,CowRumIA dataset recording (Posta_EE (15).wav) - Beef Distress
+COW-BEEF-048,#347,Durga #128,Simmental,6,Agitated Beef Herd Vocalization,concern,89,3.4,272.7,281.2,1.27,15.0,9.8,77.75,CowRumIA dataset recording (Posta_EE (16).wav) - Beef Distress
+COW-BEEF-049,#348,Tulsi #129,Brahman,6,Agitated Beef Herd Vocalization,concern,95,3.04,248.7,234.4,10.47,15.0,8.3,78.87,CowRumIA dataset recording (Posta_EE (17).wav) - Beef Distress
+COW-BEEF-050,#349,Parvati #130,Hereford,4,Agitated Beef Herd Vocalization,concern,92,2.4,114.8,328.1,3.12,15.0,6.66,81.08,CowRumIA dataset recording (Posta_EE (18).wav) - Beef Distress
+COW-BEEF-051,#350,Radha #131,Hereford,2,Agitated Beef Herd Vocalization,concern,96,2.626,277.5,281.2,7.23,8.92,7.64,81.66,CowRumIA dataset recording (Posta_EE (19).wav) - Beef Distress
+COW-BEEF-052,#351,Lakshmi #132,Angus,4,Agitated Beef Herd Vocalization,concern,95,3.4,275.9,281.2,0.0,15.0,5.5,79.21,CowRumIA dataset recording (Posta_EE (2).wav) - Beef Distress
+COW-BEEF-053,#352,Bella #133,Charolais,6,Agitated Beef Herd Vocalization,concern,96,2.88,263.7,281.2,3.64,15.0,7.83,80.33,CowRumIA dataset recording (Posta_EE (20).wav) - Beef Distress
+COW-BEEF-054,#353,Daisy #134,Angus,5,Agitated Beef Herd Vocalization,concern,89,2.202,285.7,281.2,11.35,10.53,10.71,79.43,CowRumIA dataset recording (Posta_EE (21).wav) - Beef Distress
+COW-BEEF-055,#354,Molly #135,Charolais,6,Agitated Beef Herd Vocalization,concern,89,2.24,294.5,281.2,13.95,9.06,14.58,78.75,CowRumIA dataset recording (Posta_EE (22).wav) - Beef Distress
+COW-BEEF-056,#355,Luna #136,Hereford,3,Agitated Beef Herd Vocalization,concern,94,2.24,243.7,234.4,12.66,15.0,7.58,79.31,CowRumIA dataset recording (Posta_EE (23).wav) - Beef Distress
+COW-BEEF-057,#356,Buttercup #137,Charolais,6,Agitated Beef Herd Vocalization,concern,93,2.744,290.9,281.2,16.31,9.11,8.14,81.73,CowRumIA dataset recording (Posta_EE (24).wav) - Beef Distress
+COW-BEEF-058,#357,Bessie #138,Simmental,2,Agitated Beef Herd Vocalization,concern,89,2.563,259.5,281.2,5.79,14.84,12.28,75.71,CowRumIA dataset recording (Posta_EE (25).wav) - Beef Distress
+COW-BEEF-059,#358,Penny #139,Simmental,2,Agitated Beef Herd Vocalization,concern,94,3.1,280.7,281.2,8.67,15.0,11.07,78.09,CowRumIA dataset recording (Posta_EE (26).wav) - Beef Distress
+COW-BEEF-060,#359,Ruby #140,Angus,5,Agitated Beef Herd Vocalization,concern,94,3.48,290.9,281.2,7.31,8.56,9.63,82.24,CowRumIA dataset recording (Posta_EE (27).wav) - Beef Distress
+COW-BEEF-061,#360,Rosie #141,Charolais,3,Agitated Beef Herd Vocalization,concern,91,2.08,282.4,281.2,8.49,5.16,8.54,82.13,CowRumIA dataset recording (Posta_EE (28).wav) - Beef Distress
+COW-BEEF-062,#361,Stella #142,Angus,2,Agitated Beef Herd Vocalization,concern,90,3.24,289.2,281.2,5.48,15.0,10.17,79.61,CowRumIA dataset recording (Posta_EE (29).wav) - Beef Distress
+COW-BEEF-063,#362,Chloe #143,Charolais,6,Agitated Beef Herd Vocalization,concern,90,2.4,89.7,187.5,2.37,15.0,9.76,76.15,CowRumIA dataset recording (Posta_EE (3).wav) - Beef Distress
+COW-BEEF-064,#363,Maggie #144,Angus,2,Agitated Beef Herd Vocalization,concern,89,3.96,285.7,281.2,9.13,10.47,9.85,80.16,CowRumIA dataset recording (Posta_EE (30).wav) - Beef Distress
+COW-BEEF-065,#364,Ganga #145,Hereford,6,Agitated Beef Herd Vocalization,concern,97,3.4,272.7,281.2,3.65,15.0,11.82,75.0,CowRumIA dataset recording (Posta_EE (31).wav) - Beef Distress
+COW-BEEF-066,#365,Yamuna #146,Simmental,6,Agitated Beef Herd Vocalization,concern,91,3.039,268.2,281.2,13.45,15.0,7.57,80.72,CowRumIA dataset recording (Posta_EE (32).wav) - Beef Distress
+COW-BEEF-067,#366,Kaveri #147,Charolais,3,Agitated Beef Herd Vocalization,concern,96,2.44,290.9,281.2,6.15,10.8,10.86,79.23,CowRumIA dataset recording (Posta_EE (33).wav) - Beef Distress
+COW-BEEF-068,#367,Chitra #148,Brahman,6,Agitated Beef Herd Vocalization,concern,90,3.08,242.4,234.4,11.92,15.0,8.85,80.65,CowRumIA dataset recording (Posta_EE (34).wav) - Beef Distress
+COW-BEEF-069,#368,Devaki #149,Angus,6,Agitated Beef Herd Vocalization,concern,95,2.92,216.2,234.4,5.12,15.0,7.95,78.7,CowRumIA dataset recording (Posta_EE (35).wav) - Beef Distress
+COW-BEEF-070,#369,Anandi #150,Brahman,1,Agitated Beef Herd Vocalization,concern,90,2.52,298.1,281.2,12.0,15.0,9.91,81.51,CowRumIA dataset recording (Posta_EE (36).wav) - Beef Distress
+COW-BEEF-071,#370,Meera #151,Angus,3,Agitated Beef Herd Vocalization,concern,91,2.16,296.3,281.2,11.44,7.11,10.0,81.64,CowRumIA dataset recording (Posta_EE (37).wav) - Beef Distress
+COW-BEEF-072,#371,Durga #152,Angus,2,Agitated Beef Herd Vocalization,concern,89,2.56,74.0,234.4,5.01,15.0,8.46,80.34,CowRumIA dataset recording (Posta_EE (38).wav) - Beef Distress
+COW-BEEF-073,#372,Tulsi #153,Brahman,6,Agitated Beef Herd Vocalization,concern,97,2.16,216.2,234.4,10.3,15.0,9.32,79.82,CowRumIA dataset recording (Posta_EE (39).wav) - Beef Distress
+COW-BEEF-074,#373,Parvati #154,Simmental,6,Agitated Beef Herd Vocalization,concern,88,2.84,250.0,234.4,7.14,15.0,9.92,78.86,CowRumIA dataset recording (Posta_EE (4).wav) - Beef Distress
+COW-BEEF-075,#374,Radha #155,Brahman,3,Agitated Beef Herd Vocalization,concern,90,2.317,307.7,281.2,0.99,15.0,12.46,76.15,CowRumIA dataset recording (Posta_EE (40).wav) - Beef Distress
+COW-BEEF-076,#375,Lakshmi #156,Angus,4,Agitated Beef Herd Vocalization,concern,96,2.44,90.6,187.5,3.2,15.0,7.51,78.96,CowRumIA dataset recording (Posta_EE (41).wav) - Beef Distress
+COW-BEEF-077,#376,Bella #157,Simmental,6,Agitated Beef Herd Vocalization,concern,96,2.72,228.6,187.5,0.0,15.0,10.62,76.11,CowRumIA dataset recording (Posta_EE (42).wav) - Beef Distress
+COW-BEEF-078,#377,Daisy #158,Brahman,1,Agitated Beef Herd Vocalization,concern,90,2.014,315.8,328.1,13.78,3.64,5.34,84.52,CowRumIA dataset recording (Posta_EE (43).wav) - Beef Distress
+COW-BEEF-079,#378,Molly #159,Simmental,1,Agitated Beef Herd Vocalization,concern,88,3.0,158.9,328.1,3.24,15.0,12.16,77.06,CowRumIA dataset recording (Posta_EE (44).wav) - Beef Distress
+COW-BEEF-080,#379,Luna #160,Angus,1,Agitated Beef Herd Vocalization,concern,94,2.88,222.2,421.9,1.57,15.0,8.75,77.68,CowRumIA dataset recording (Posta_EE (45).wav) - Beef Distress
+COW-BEEF-081,#300,Buttercup #161,Simmental,4,Agitated Beef Herd Vocalization,concern,94,3.24,294.5,281.2,0.71,15.0,11.61,80.11,CowRumIA dataset recording (Posta_EE (46).wav) - Beef Distress
+COW-BEEF-082,#301,Bessie #162,Hereford,5,Agitated Beef Herd Vocalization,concern,88,3.68,285.7,281.2,2.48,7.62,11.95,77.64,CowRumIA dataset recording (Posta_EE (47).wav) - Beef Distress
+COW-BEEF-083,#302,Penny #163,Hereford,6,Agitated Beef Herd Vocalization,concern,92,3.08,173.9,328.1,0.0,12.02,9.55,76.86,CowRumIA dataset recording (Posta_EE (48).wav) - Beef Distress
+COW-BEEF-084,#303,Ruby #164,Brahman,1,Agitated Beef Herd Vocalization,concern,90,3.96,287.4,281.2,6.72,15.0,12.0,78.17,CowRumIA dataset recording (Posta_EE (49).wav) - Beef Distress
+COW-BEEF-085,#304,Rosie #165,Hereford,1,Agitated Beef Herd Vocalization,concern,95,2.8,272.7,281.2,1.28,15.0,9.95,77.28,CowRumIA dataset recording (Posta_EE (5).wav) - Beef Distress
+COW-BEEF-086,#305,Stella #166,Hereford,2,Agitated Beef Herd Vocalization,concern,89,3.24,274.3,281.2,4.59,15.0,9.58,78.57,CowRumIA dataset recording (Posta_EE (50).wav) - Beef Distress
+COW-BEEF-087,#306,Chloe #167,Hereford,1,Agitated Beef Herd Vocalization,concern,88,2.92,277.5,281.2,12.65,10.72,8.61,82.08,CowRumIA dataset recording (Posta_EE (51).wav) - Beef Distress
+COW-BEEF-088,#307,Maggie #168,Hereford,6,Agitated Beef Herd Vocalization,concern,97,3.04,285.7,281.2,5.23,15.0,7.11,80.34,CowRumIA dataset recording (Posta_EE (52).wav) - Beef Distress
+COW-BEEF-089,#308,Ganga #169,Angus,3,Agitated Beef Herd Vocalization,concern,88,3.04,285.7,562.5,4.6,15.0,11.15,76.36,CowRumIA dataset recording (Posta_EE (53).wav) - Beef Distress
+COW-BEEF-090,#309,Yamuna #170,Hereford,1,Agitated Beef Herd Vocalization,concern,89,2.48,109.1,421.9,0.0,15.0,10.65,77.31,CowRumIA dataset recording (Posta_EE (54).wav) - Beef Distress
+COW-BEEF-091,#310,Kaveri #171,Angus,3,Agitated Beef Herd Vocalization,concern,97,2.88,282.4,281.2,6.39,15.0,7.19,77.9,CowRumIA dataset recording (Posta_EE (55).wav) - Beef Distress
+COW-BEEF-092,#311,Chitra #172,Simmental,6,Agitated Beef Herd Vocalization,concern,95,3.435,282.4,562.5,8.91,15.0,9.95,77.57,CowRumIA dataset recording (Posta_EE (56).wav) - Beef Distress
+COW-BEEF-093,#312,Devaki #173,Hereford,6,Agitated Beef Herd Vocalization,concern,88,2.72,266.7,281.2,9.72,4.59,8.39,79.84,CowRumIA dataset recording (Posta_EE (57).wav) - Beef Distress
+COW-BEEF-094,#313,Anandi #174,Angus,3,Agitated Beef Herd Vocalization,concern,92,3.08,282.4,281.2,3.26,15.0,7.13,79.33,CowRumIA dataset recording (Posta_EE (58).wav) - Beef Distress
+COW-BEEF-095,#314,Meera #175,Simmental,4,Agitated Beef Herd Vocalization,concern,97,3.0,238.8,234.4,7.08,15.0,7.33,80.53,CowRumIA dataset recording (Posta_EE (59).wav) - Beef Distress
+COW-BEEF-096,#315,Durga #176,Brahman,4,Agitated Beef Herd Vocalization,concern,88,2.502,280.7,281.2,11.35,11.64,10.56,79.89,CowRumIA dataset recording (Posta_EE (6).wav) - Beef Distress
+COW-BEEF-097,#316,Tulsi #177,Charolais,1,Agitated Beef Herd Vocalization,concern,96,3.36,277.5,281.2,6.71,15.0,7.42,78.88,CowRumIA dataset recording (Posta_EE (60).wav) - Beef Distress
+COW-BEEF-098,#317,Parvati #178,Simmental,2,Agitated Beef Herd Vocalization,concern,89,3.0,127.0,234.4,5.23,15.0,14.63,79.51,CowRumIA dataset recording (Posta_EE (61).wav) - Beef Distress
+COW-BEEF-099,#318,Radha #179,Simmental,1,Agitated Beef Herd Vocalization,concern,95,3.16,252.6,234.4,10.12,15.0,8.38,80.85,CowRumIA dataset recording (Posta_EE (62).wav) - Beef Distress
+COW-BEEF-100,#319,Lakshmi #180,Hereford,5,Agitated Beef Herd Vocalization,concern,91,3.16,269.7,281.2,0.0,15.0,11.45,78.8,CowRumIA dataset recording (Posta_EE (63).wav) - Beef Distress
+COW-BEEF-101,#320,Bella #181,Angus,3,Agitated Beef Herd Vocalization,concern,97,3.56,228.6,234.4,7.6,15.0,6.57,78.49,CowRumIA dataset recording (Posta_EE (64).wav) - Beef Distress
+COW-BEEF-102,#321,Daisy #182,Angus,3,Agitated Beef Herd Vocalization,concern,90,2.96,247.4,234.4,2.34,15.0,7.29,80.71,CowRumIA dataset recording (Posta_EE (65).wav) - Beef Distress
+COW-BEEF-103,#322,Molly #183,Brahman,1,Agitated Beef Herd Vocalization,concern,94,3.16,124.7,234.4,4.26,15.0,16.08,78.74,CowRumIA dataset recording (Posta_EE (66).wav) - Beef Distress
+COW-BEEF-104,#323,Luna #184,Hereford,3,Agitated Beef Herd Vocalization,concern,94,2.96,247.4,234.4,10.19,15.0,6.12,80.76,CowRumIA dataset recording (Posta_EE (67).wav) - Beef Distress
+COW-BEEF-105,#324,Buttercup #185,Charolais,1,Agitated Beef Herd Vocalization,concern,95,3.08,123.1,234.4,3.06,15.0,10.27,77.82,CowRumIA dataset recording (Posta_EE (68).wav) - Beef Distress
+COW-BEEF-106,#325,Bessie #186,Angus,4,Agitated Beef Herd Vocalization,concern,95,3.04,284.0,281.2,1.64,15.0,7.55,77.85,CowRumIA dataset recording (Posta_EE (69).wav) - Beef Distress
+COW-BEEF-107,#326,Penny #187,Simmental,6,Agitated Beef Herd Vocalization,concern,95,3.24,296.3,281.2,0.0,15.0,10.5,77.37,CowRumIA dataset recording (Posta_EE (7).wav) - Beef Distress
+COW-BEEF-108,#327,Ruby #188,Angus,4,Agitated Beef Herd Vocalization,concern,94,3.4,282.4,281.2,0.0,15.0,12.58,76.12,CowRumIA dataset recording (Posta_EE (70).wav) - Beef Distress
+COW-BEEF-109,#328,Rosie #189,Brahman,4,Agitated Beef Herd Vocalization,concern,95,3.12,279.1,281.2,2.51,9.53,9.37,79.41,CowRumIA dataset recording (Posta_EE (71).wav) - Beef Distress
+COW-BEEF-110,#329,Stella #190,Hereford,4,Agitated Beef Herd Vocalization,concern,90,3.0,289.2,281.2,12.85,15.0,7.51,80.96,CowRumIA dataset recording (Posta_EE (72).wav) - Beef Distress
+COW-BEEF-111,#330,Chloe #191,Angus,4,Agitated Beef Herd Vocalization,concern,90,3.32,238.8,234.4,10.27,15.0,8.64,78.12,CowRumIA dataset recording (Posta_EE (73).wav) - Beef Distress
+COW-BEEF-112,#331,Maggie #192,Brahman,6,Agitated Beef Herd Vocalization,concern,94,3.68,251.3,234.4,4.19,15.0,9.55,77.21,CowRumIA dataset recording (Posta_EE (74).wav) - Beef Distress
+COW-BEEF-113,#332,Ganga #193,Brahman,4,Agitated Beef Herd Vocalization,concern,92,3.04,244.9,468.8,3.77,15.0,8.38,79.69,CowRumIA dataset recording (Posta_EE (75).wav) - Beef Distress
+COW-BEEF-114,#333,Yamuna #194,Angus,3,Agitated Beef Herd Vocalization,concern,92,3.04,242.4,468.8,5.83,15.0,7.83,79.96,CowRumIA dataset recording (Posta_EE (76).wav) - Beef Distress
+COW-BEEF-115,#334,Kaveri #195,Brahman,5,Agitated Beef Herd Vocalization,concern,91,3.08,246.2,234.4,5.52,15.0,7.18,80.21,CowRumIA dataset recording (Posta_EE (77).wav) - Beef Distress
+COW-BEEF-116,#335,Chitra #196,Brahman,1,Agitated Beef Herd Vocalization,concern,88,2.92,122.1,234.4,0.0,15.0,12.35,77.98,CowRumIA dataset recording (Posta_EE (78).wav) - Beef Distress
+COW-BEEF-117,#336,Devaki #197,Hereford,2,Agitated Beef Herd Vocalization,concern,93,3.08,120.6,234.4,1.51,15.0,15.39,74.27,CowRumIA dataset recording (Posta_EE (79).wav) - Beef Distress
+COW-BEEF-118,#337,Anandi #198,Charolais,5,Agitated Beef Herd Vocalization,concern,92,4.12,311.7,328.1,7.16,13.3,9.97,78.94,CowRumIA dataset recording (Posta_EE (8).wav) - Beef Distress
+COW-BEEF-119,#338,Meera #199,Angus,4,Agitated Beef Herd Vocalization,concern,90,3.8,122.1,234.4,2.77,10.7,7.86,79.76,CowRumIA dataset recording (Posta_EE (80).wav) - Beef Distress
+COW-BEEF-120,#339,Durga #200,Hereford,3,Agitated Beef Herd Vocalization,concern,88,2.88,243.7,468.8,8.34,15.0,9.16,79.38,CowRumIA dataset recording (Posta_EE (81).wav) - Beef Distress
+COW-BEEF-121,#340,Tulsi #201,Angus,1,Agitated Beef Herd Vocalization,concern,93,2.72,279.1,281.2,7.28,15.0,11.06,77.49,CowRumIA dataset recording (Posta_EE (82).wav) - Beef Distress
+COW-BEEF-122,#341,Parvati #202,Simmental,6,Agitated Beef Herd Vocalization,concern,94,2.52,121.2,468.8,8.74,15.0,7.6,80.65,CowRumIA dataset recording (Posta_EE (83).wav) - Beef Distress
+COW-BEEF-123,#342,Radha #203,Angus,5,Agitated Beef Herd Vocalization,concern,91,2.96,251.3,515.6,6.74,15.0,8.97,77.68,CowRumIA dataset recording (Posta_EE (84).wav) - Beef Distress
+COW-BEEF-124,#343,Lakshmi #204,Simmental,1,Agitated Beef Herd Vocalization,concern,89,2.48,247.4,234.4,10.28,15.0,6.6,80.83,CowRumIA dataset recording (Posta_EE (85).wav) - Beef Distress
+COW-BEEF-125,#344,Bella #205,Brahman,2,Agitated Beef Herd Vocalization,concern,93,3.28,243.7,234.4,9.38,15.0,6.11,80.67,CowRumIA dataset recording (Posta_EE (86).wav) - Beef Distress
+COW-BEEF-126,#345,Daisy #206,Brahman,3,Agitated Beef Herd Vocalization,concern,94,3.28,122.1,234.4,3.9,15.0,12.31,74.97,CowRumIA dataset recording (Posta_EE (87).wav) - Beef Distress
+COW-BEEF-127,#346,Molly #207,Brahman,2,Agitated Beef Herd Vocalization,concern,92,3.36,127.0,234.4,5.66,15.0,13.87,79.86,CowRumIA dataset recording (Posta_EE (88).wav) - Beef Distress
+COW-BEEF-128,#347,Luna #208,Simmental,6,Agitated Beef Herd Vocalization,concern,93,2.8,238.8,234.4,1.24,15.0,9.49,78.46,CowRumIA dataset recording (Posta_EE (89).wav) - Beef Distress
+COW-BEEF-129,#348,Buttercup #209,Angus,4,Agitated Beef Herd Vocalization,concern,90,3.84,320.0,281.2,1.93,14.08,11.4,80.53,CowRumIA dataset recording (Posta_EE (9).wav) - Beef Distress
+COW-BEEF-130,#349,Bessie #210,Hereford,5,Agitated Beef Herd Vocalization,concern,90,3.72,255.3,234.4,6.41,15.0,9.11,77.5,CowRumIA dataset recording (Posta_EE (90).wav) - Beef Distress
+COW-BEEF-131,#350,Penny #211,Simmental,5,Agitated Beef Herd Vocalization,concern,95,2.469,307.7,281.2,8.45,5.12,5.94,82.5,CowRumIA dataset recording (Posta_EE (91).wav) - Beef Distress
+COW-BEEF-132,#351,Ruby #212,Brahman,6,Agitated Beef Herd Vocalization,concern,97,3.6,123.1,234.4,3.87,15.0,11.94,78.8,CowRumIA dataset recording (Posta_EE (92).wav) - Beef Distress
+COW-BEEF-133,#352,Rosie #213,Angus,5,Agitated Beef Herd Vocalization,concern,88,3.08,123.1,140.6,0.0,15.0,23.6,71.63,CowRumIA dataset recording (Posta_EE (93).wav) - Beef Distress
+COW-BEEF-134,#353,Stella #214,Charolais,3,Agitated Beef Herd Vocalization,concern,89,3.64,274.3,281.2,6.17,15.0,16.22,74.27,CowRumIA dataset recording (Posta_EE (94).wav) - Beef Distress
+COW-BEEF-135,#354,Chloe #215,Simmental,3,Agitated Beef Herd Vocalization,concern,91,3.32,301.9,281.2,1.22,15.0,8.8,78.56,CowRumIA dataset recording (Posta_EE (95).wav) - Beef Distress
+COW-BEEF-136,#355,Maggie #216,Angus,1,Agitated Beef Herd Vocalization,concern,89,3.16,284.0,281.2,3.81,15.0,10.82,78.83,CowRumIA dataset recording (Posta_EE (96).wav) - Beef Distress
+COW-BEEF-137,#356,Ganga #217,Brahman,2,Agitated Beef Herd Vocalization,concern,92,3.52,296.3,281.2,5.4,12.29,9.65,79.63,CowRumIA dataset recording (Posta_EE (97).wav) - Beef Distress
+COW-BEEF-138,#357,Yamuna #218,Brahman,2,Agitated Beef Herd Vocalization,concern,97,3.12,246.2,234.4,10.78,15.0,6.57,80.05,CowRumIA dataset recording (Posta_EE (98).wav) - Beef Distress
+COW-BEEF-139,#358,Kaveri #219,Hereford,4,Agitated Beef Herd Vocalization,concern,92,1.8,444.4,375.0,0.03,13.44,11.68,74.73,CowRumIA dataset recording (Posta_EE (99).wav) - Beef Distress
+COW-BEEF-140,#359,Chitra #220,Angus,2,Agitated Beef Herd Vocalization,concern,96,2.2,138.3,703.1,1.0,15.0,8.83,76.26,CowRumIA dataset recording (Venaderos_EE (1).wav) - Beef Distress
+COW-BEEF-141,#360,Devaki #221,Charolais,2,Agitated Beef Herd Vocalization,concern,92,1.96,96.0,187.5,0.0,15.0,7.7,81.29,CowRumIA dataset recording (Venaderos_EE (10).wav) - Beef Distress
+COW-BEEF-142,#361,Anandi #222,Hereford,4,Agitated Beef Herd Vocalization,concern,92,2.08,167.2,140.6,3.22,14.01,8.07,79.99,CowRumIA dataset recording (Venaderos_EE (11).wav) - Beef Distress
+COW-BEEF-143,#362,Meera #223,Simmental,4,Agitated Beef Herd Vocalization,concern,89,3.84,347.8,46.9,0.0,12.72,9.21,78.28,CowRumIA dataset recording (Venaderos_EE (12).wav) - Beef Distress
+COW-BEEF-144,#363,Durga #224,Angus,4,Agitated Beef Herd Vocalization,concern,89,2.12,615.4,46.9,0.0,14.0,8.21,81.23,CowRumIA dataset recording (Venaderos_EE (13).wav) - Beef Distress
+COW-BEEF-145,#364,Tulsi #225,Hereford,3,Agitated Beef Herd Vocalization,concern,88,2.16,564.7,1125.0,1.45,15.0,7.11,79.3,CowRumIA dataset recording (Venaderos_EE (14).wav) - Beef Distress
+COW-BEEF-146,#365,Parvati #226,Angus,4,Agitated Beef Herd Vocalization,concern,97,2.92,571.4,1125.0,0.19,8.33,7.12,77.73,CowRumIA dataset recording (Venaderos_EE (15).wav) - Beef Distress
+COW-BEEF-147,#366,Radha #227,Hereford,4,Agitated Beef Herd Vocalization,concern,92,3.32,558.1,1078.1,2.45,15.0,7.31,79.49,CowRumIA dataset recording (Venaderos_EE (16).wav) - Beef Distress
+COW-BEEF-148,#367,Lakshmi #228,Charolais,6,Agitated Beef Herd Vocalization,concern,90,2.88,130.4,46.9,0.0,15.0,7.99,78.76,CowRumIA dataset recording (Venaderos_EE (17).wav) - Beef Distress
+COW-BEEF-149,#368,Bella #229,Simmental,4,Agitated Beef Herd Vocalization,concern,88,2.0,592.6,46.9,0.0,15.0,7.81,79.11,CowRumIA dataset recording (Venaderos_EE (18).wav) - Beef Distress
+COW-BEEF-150,#369,Daisy #230,Simmental,5,Agitated Beef Herd Vocalization,concern,97,2.04,135.2,1078.1,1.32,15.0,8.22,79.07,CowRumIA dataset recording (Venaderos_EE (19).wav) - Beef Distress
+COW-BEEF-151,#370,Molly #231,Hereford,5,Agitated Beef Herd Vocalization,concern,96,2.28,138.7,46.9,0.0,15.0,11.46,78.1,CowRumIA dataset recording (Venaderos_EE (2).wav) - Beef Distress
+COW-BEEF-152,#371,Luna #232,Brahman,4,Agitated Beef Herd Vocalization,concern,94,2.16,133.7,1078.1,1.58,7.52,6.82,78.57,CowRumIA dataset recording (Venaderos_EE (20).wav) - Beef Distress
+COW-BEEF-153,#372,Buttercup #233,Simmental,6,Agitated Beef Herd Vocalization,concern,89,2.32,600.0,46.9,1.82,5.72,9.66,79.73,CowRumIA dataset recording (Venaderos_EE (21).wav) - Beef Distress
+COW-BEEF-154,#373,Bessie #234,Angus,6,Agitated Beef Herd Vocalization,concern,90,2.2,122.8,234.4,1.76,14.15,7.32,80.34,CowRumIA dataset recording (Venaderos_EE (22).wav) - Beef Distress
+COW-BEEF-155,#374,Penny #235,Simmental,6,Agitated Beef Herd Vocalization,concern,97,2.0,292.7,46.9,0.0,12.96,8.79,77.59,CowRumIA dataset recording (Venaderos_EE (23).wav) - Beef Distress
+COW-BEEF-156,#375,Ruby #236,Simmental,2,Agitated Beef Herd Vocalization,concern,91,2.0,340.4,328.1,1.73,12.93,8.23,81.29,CowRumIA dataset recording (Venaderos_EE (24).wav) - Beef Distress
+COW-BEEF-157,#376,Rosie #237,Charolais,2,Agitated Beef Herd Vocalization,concern,89,3.2,571.4,609.4,0.0,15.0,9.73,78.62,CowRumIA dataset recording (Venaderos_EE (25).wav) - Beef Distress
+COW-BEEF-158,#377,Stella #238,Hereford,4,Agitated Beef Herd Vocalization,concern,88,2.36,551.7,46.9,0.0,15.0,9.92,79.16,CowRumIA dataset recording (Venaderos_EE (26).wav) - Beef Distress
+COW-BEEF-159,#378,Chloe #239,Brahman,4,Agitated Beef Herd Vocalization,concern,93,2.0,585.4,46.9,0.0,15.0,8.31,79.45,CowRumIA dataset recording (Venaderos_EE (27).wav) - Beef Distress
+COW-BEEF-160,#379,Maggie #240,Brahman,6,Agitated Beef Herd Vocalization,concern,93,3.0,592.6,46.9,0.0,15.0,8.61,78.25,CowRumIA dataset recording (Venaderos_EE (28).wav) - Beef Distress
+COW-BEEF-161,#300,Ganga #241,Simmental,5,Agitated Beef Herd Vocalization,concern,89,2.12,578.3,46.9,0.0,12.55,7.68,79.15,CowRumIA dataset recording (Venaderos_EE (29).wav) - Beef Distress
+COW-BEEF-162,#301,Yamuna #242,Brahman,3,Agitated Beef Herd Vocalization,concern,96,2.04,666.7,46.9,4.84,1.81,12.74,79.67,CowRumIA dataset recording (Venaderos_EE (3).wav) - Beef Distress
+COW-BEEF-163,#302,Kaveri #243,Angus,5,Agitated Beef Herd Vocalization,concern,92,2.36,163.3,328.1,1.78,9.12,9.69,76.22,CowRumIA dataset recording (Venaderos_EE (30).wav) - Beef Distress
+COW-BEEF-164,#303,Chitra #244,Angus,6,Agitated Beef Herd Vocalization,concern,92,2.04,153.4,328.1,5.42,15.0,8.45,79.54,CowRumIA dataset recording (Venaderos_EE (31).wav) - Beef Distress
+COW-BEEF-165,#304,Devaki #245,Charolais,4,Agitated Beef Herd Vocalization,concern,94,2.0,217.2,234.4,6.19,15.0,7.32,81.39,CowRumIA dataset recording (Venaderos_EE (32).wav) - Beef Distress
+COW-BEEF-166,#305,Anandi #246,Charolais,4,Agitated Beef Herd Vocalization,concern,96,2.32,157.9,140.6,0.0,14.81,9.81,76.71,CowRumIA dataset recording (Venaderos_EE (33).wav) - Beef Distress
+COW-BEEF-167,#306,Meera #247,Simmental,3,Agitated Beef Herd Vocalization,concern,91,2.16,169.0,328.1,6.06,15.0,10.87,74.9,CowRumIA dataset recording (Venaderos_EE (34).wav) - Beef Distress
+COW-BEEF-168,#307,Durga #248,Charolais,5,Agitated Beef Herd Vocalization,concern,93,3.64,135.2,1078.1,0.0,15.0,10.05,77.76,CowRumIA dataset recording (Venaderos_EE (35).wav) - Beef Distress
+COW-BEEF-169,#308,Tulsi #249,Hereford,3,Agitated Beef Herd Vocalization,concern,91,1.92,800.0,46.9,0.0,15.0,13.76,78.05,CowRumIA dataset recording (Venaderos_EE (36).wav) - Beef Distress
+COW-BEEF-170,#309,Parvati #250,Charolais,2,Agitated Beef Herd Vocalization,concern,96,3.16,623.4,46.9,0.0,15.0,9.43,76.17,CowRumIA dataset recording (Venaderos_EE (37).wav) - Beef Distress
+COW-BEEF-171,#310,Radha #251,Angus,1,Agitated Beef Herd Vocalization,concern,90,2.16,117.6,234.4,6.5,13.52,6.76,80.64,CowRumIA dataset recording (Venaderos_EE (38).wav) - Beef Distress
+COW-BEEF-172,#311,Lakshmi #252,Brahman,1,Agitated Beef Herd Vocalization,concern,97,2.12,122.4,234.4,4.71,9.47,6.91,81.12,CowRumIA dataset recording (Venaderos_EE (39).wav) - Beef Distress
+COW-BEEF-173,#312,Bella #253,Charolais,3,Agitated Beef Herd Vocalization,concern,94,2.28,133.7,1078.1,1.38,15.0,7.37,80.87,CowRumIA dataset recording (Venaderos_EE (4).wav) - Beef Distress
+COW-BEEF-174,#313,Daisy #254,Brahman,1,Agitated Beef Herd Vocalization,concern,93,2.56,110.9,234.4,4.16,15.0,11.81,79.81,CowRumIA dataset recording (Venaderos_EE (40).wav) - Beef Distress
+COW-BEEF-175,#314,Molly #255,Hereford,4,Agitated Beef Herd Vocalization,concern,96,3.08,131.9,1312.5,4.45,15.0,9.93,76.12,CowRumIA dataset recording (Venaderos_EE (41).wav) - Beef Distress
+COW-BEEF-176,#315,Luna #256,Brahman,4,Agitated Beef Herd Vocalization,concern,96,2.36,128.7,46.9,0.0,15.0,18.07,67.74,CowRumIA dataset recording (Venaderos_EE (42).wav) - Beef Distress
+COW-BEEF-177,#316,Buttercup #257,Angus,3,Agitated Beef Herd Vocalization,concern,91,2.32,125.0,609.4,4.4,15.0,6.62,79.86,CowRumIA dataset recording (Venaderos_EE (43).wav) - Beef Distress
+COW-BEEF-178,#317,Bessie #258,Brahman,4,Agitated Beef Herd Vocalization,concern,88,2.88,137.9,46.9,0.0,15.0,14.12,75.48,CowRumIA dataset recording (Venaderos_EE (44).wav) - Beef Distress
+COW-BEEF-179,#318,Penny #259,Simmental,3,Agitated Beef Herd Vocalization,concern,95,3.0,342.9,328.1,1.16,7.77,7.54,82.57,CowRumIA dataset recording (Venaderos_EE (45).wav) - Beef Distress
+COW-BEEF-180,#319,Ruby #260,Angus,4,Agitated Beef Herd Vocalization,concern,95,3.8,338.0,281.2,0.0,15.0,11.98,81.62,CowRumIA dataset recording (Venaderos_EE (46).wav) - Beef Distress
+COW-BEEF-181,#320,Rosie #261,Brahman,5,Agitated Beef Herd Vocalization,concern,95,2.08,130.8,234.4,4.88,15.0,6.8,78.63,CowRumIA dataset recording (Venaderos_EE (47).wav) - Beef Distress
+COW-BEEF-182,#321,Stella #262,Charolais,3,Agitated Beef Herd Vocalization,concern,96,2.72,235.3,234.4,4.01,15.0,10.54,79.65,CowRumIA dataset recording (Venaderos_EE (48).wav) - Beef Distress
+COW-BEEF-183,#322,Chloe #263,Hereford,5,Agitated Beef Herd Vocalization,concern,92,3.8,124.4,234.4,3.44,15.0,11.39,77.07,CowRumIA dataset recording (Venaderos_EE (49).wav) - Beef Distress
+COW-BEEF-184,#323,Maggie #264,Simmental,4,Agitated Beef Herd Vocalization,concern,89,2.16,727.3,0.0,0.0,14.12,8.69,78.75,CowRumIA dataset recording (Venaderos_EE (5).wav) - Beef Distress
+COW-BEEF-185,#324,Ganga #265,Angus,1,Agitated Beef Herd Vocalization,concern,96,3.8,800.0,93.8,0.0,15.0,15.59,68.86,CowRumIA dataset recording (Venaderos_EE (50).wav) - Beef Distress
+COW-BEEF-186,#325,Yamuna #266,Brahman,3,Agitated Beef Herd Vocalization,concern,95,3.04,800.0,93.8,0.16,15.0,9.18,81.53,CowRumIA dataset recording (Venaderos_EE (51).wav) - Beef Distress
+COW-BEEF-187,#326,Kaveri #267,Simmental,3,Agitated Beef Herd Vocalization,concern,95,2.72,175.8,187.5,3.04,7.16,8.67,80.17,CowRumIA dataset recording (Venaderos_EE (52).wav) - Beef Distress
+COW-BEEF-188,#327,Chitra #268,Angus,4,Agitated Beef Herd Vocalization,concern,96,2.92,217.2,234.4,3.23,15.0,10.24,78.92,CowRumIA dataset recording (Venaderos_EE (53).wav) - Beef Distress
+COW-BEEF-189,#328,Devaki #269,Angus,5,Agitated Beef Herd Vocalization,concern,97,2.32,133.7,656.2,0.0,15.0,7.46,77.38,CowRumIA dataset recording (Venaderos_EE (54).wav) - Beef Distress
+COW-BEEF-190,#329,Anandi #270,Charolais,1,Agitated Beef Herd Vocalization,concern,95,2.4,137.1,1078.1,1.42,15.0,8.54,78.18,CowRumIA dataset recording (Venaderos_EE (55).wav) - Beef Distress
+COW-BEEF-191,#330,Meera #271,Hereford,6,Agitated Beef Herd Vocalization,concern,95,2.44,551.7,1125.0,0.0,15.0,7.57,79.32,CowRumIA dataset recording (Venaderos_EE (6).wav) - Beef Distress
+COW-BEEF-192,#331,Durga #272,Hereford,5,Agitated Beef Herd Vocalization,concern,92,2.04,142.0,46.9,0.0,15.0,7.92,80.43,CowRumIA dataset recording (Venaderos_EE (7).wav) - Beef Distress
+COW-BEEF-193,#332,Tulsi #273,Brahman,4,Agitated Beef Herd Vocalization,concern,94,2.64,154.8,281.2,0.0,15.0,6.71,80.59,CowRumIA dataset recording (Venaderos_EE (8).wav) - Beef Distress
+COW-BEEF-194,#333,Parvati #274,Angus,1,Agitated Beef Herd Vocalization,concern,95,2.2,324.3,328.1,0.0,10.6,7.54,81.6,CowRumIA dataset recording (Venaderos_EE (9).wav) - Beef Distress
+COW-CALF-001,#334,Radha #275,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,3.44,510.6,515.6,1.76,15.0,8.64,77.23,CowRumIA dataset recording (Posta_BLE (1).wav) - Calf Distress
+COW-CALF-002,#335,Lakshmi #276,Jersey,1,Acute Calf Hunger / Pain Cry,critical,90,2.08,152.4,468.8,5.31,13.7,8.66,77.45,CowRumIA dataset recording (Posta_BLE (10).wav) - Calf Distress
+COW-CALF-003,#336,Bella #277,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,3.12,66.6,375.0,0.29,15.0,7.17,78.74,CowRumIA dataset recording (Posta_BLE (100).wav) - Calf Distress
+COW-CALF-004,#337,Daisy #278,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,88,3.52,79.3,468.8,5.41,8.86,6.93,77.98,CowRumIA dataset recording (Posta_BLE (101).wav) - Calf Distress
+COW-CALF-005,#338,Molly #279,Gir,1,Acute Calf Hunger / Pain Cry,critical,90,3.12,510.6,468.8,0.88,14.89,7.46,79.53,CowRumIA dataset recording (Posta_BLE (102).wav) - Calf Distress
+COW-CALF-006,#339,Luna #280,Gir,1,Acute Calf Hunger / Pain Cry,critical,90,3.12,154.3,468.8,0.0,12.46,6.72,78.49,CowRumIA dataset recording (Posta_BLE (103).wav) - Calf Distress
+COW-CALF-007,#340,Buttercup #281,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,93,2.08,108.8,421.9,1.1,10.98,6.26,80.81,CowRumIA dataset recording (Posta_BLE (104).wav) - Calf Distress
+COW-CALF-008,#341,Bessie #282,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,93,3.76,113.2,468.8,0.63,15.0,7.52,79.58,CowRumIA dataset recording (Posta_BLE (105).wav) - Calf Distress
+COW-CALF-009,#342,Penny #283,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,3.4,494.8,421.9,0.0,15.0,9.11,78.82,CowRumIA dataset recording (Posta_BLE (106).wav) - Calf Distress
+COW-CALF-010,#343,Ruby #284,Jersey,1,Acute Calf Hunger / Pain Cry,critical,89,3.0,484.8,468.8,3.99,15.0,7.67,78.02,CowRumIA dataset recording (Posta_BLE (107).wav) - Calf Distress
+COW-CALF-011,#344,Rosie #285,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,3.04,578.3,515.6,1.21,15.0,9.0,76.21,CowRumIA dataset recording (Posta_BLE (108).wav) - Calf Distress
+COW-CALF-012,#345,Stella #286,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,90,3.04,494.8,515.6,2.35,9.45,8.21,77.03,CowRumIA dataset recording (Posta_BLE (109).wav) - Calf Distress
+COW-CALF-013,#346,Chloe #287,Jersey,1,Acute Calf Hunger / Pain Cry,critical,95,3.72,510.6,468.8,0.0,13.11,10.65,74.89,CowRumIA dataset recording (Posta_BLE (11).wav) - Calf Distress
+COW-CALF-014,#347,Maggie #288,Jersey,1,Acute Calf Hunger / Pain Cry,critical,92,2.52,489.8,468.8,8.3,8.97,6.76,83.39,CowRumIA dataset recording (Posta_BLE (110).wav) - Calf Distress
+COW-CALF-015,#348,Ganga #289,Gir,1,Acute Calf Hunger / Pain Cry,critical,88,3.08,510.6,468.8,0.52,13.3,9.11,79.3,CowRumIA dataset recording (Posta_BLE (111).wav) - Calf Distress
+COW-CALF-016,#349,Yamuna #290,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,91,3.32,111.4,468.8,3.31,15.0,7.72,78.35,CowRumIA dataset recording (Posta_BLE (112).wav) - Calf Distress
+COW-CALF-017,#350,Kaveri #291,Jersey,1,Acute Calf Hunger / Pain Cry,critical,88,3.2,500.0,468.8,4.88,9.84,7.88,80.96,CowRumIA dataset recording (Posta_BLE (113).wav) - Calf Distress
+COW-CALF-018,#351,Chitra #292,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,94,2.64,480.0,468.8,2.34,15.0,8.44,80.29,CowRumIA dataset recording (Posta_BLE (114).wav) - Calf Distress
+COW-CALF-019,#352,Devaki #293,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,93,3.52,558.1,515.6,0.51,15.0,8.03,77.74,CowRumIA dataset recording (Posta_BLE (115).wav) - Calf Distress
+COW-CALF-020,#353,Anandi #294,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,93,3.08,527.5,468.8,1.19,15.0,7.58,79.87,CowRumIA dataset recording (Posta_BLE (116).wav) - Calf Distress
+COW-CALF-021,#354,Meera #295,Gir,1,Acute Calf Hunger / Pain Cry,critical,91,3.52,406.8,421.9,2.81,15.0,8.66,77.13,CowRumIA dataset recording (Posta_BLE (117).wav) - Calf Distress
+COW-CALF-022,#355,Durga #296,Jersey,1,Acute Calf Hunger / Pain Cry,critical,96,3.4,147.7,468.8,0.28,15.0,6.47,81.33,CowRumIA dataset recording (Posta_BLE (118).wav) - Calf Distress
+COW-CALF-023,#356,Tulsi #297,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,95,3.12,131.9,515.6,0.97,15.0,9.52,77.69,CowRumIA dataset recording (Posta_BLE (119).wav) - Calf Distress
+COW-CALF-024,#357,Parvati #298,Gir,1,Acute Calf Hunger / Pain Cry,critical,95,3.16,72.5,890.6,0.0,11.47,7.46,76.47,CowRumIA dataset recording (Posta_BLE (12).wav) - Calf Distress
+COW-CALF-025,#358,Radha #299,Jersey,1,Acute Calf Hunger / Pain Cry,critical,92,3.24,116.8,468.8,0.76,15.0,8.24,80.8,CowRumIA dataset recording (Posta_BLE (120).wav) - Calf Distress
+COW-CALF-026,#359,Lakshmi #300,Gir,1,Acute Calf Hunger / Pain Cry,critical,92,3.84,500.0,515.6,1.14,15.0,7.25,79.62,CowRumIA dataset recording (Posta_BLE (121).wav) - Calf Distress
+COW-CALF-027,#360,Bella #301,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,88,2.92,571.4,562.5,3.13,15.0,7.15,79.25,CowRumIA dataset recording (Posta_BLE (122).wav) - Calf Distress
+COW-CALF-028,#361,Daisy #302,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,88,3.36,571.4,515.6,1.54,15.0,8.88,79.03,CowRumIA dataset recording (Posta_BLE (123).wav) - Calf Distress
+COW-CALF-029,#362,Molly #303,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,92,3.44,489.8,468.8,1.83,15.0,8.25,78.53,CowRumIA dataset recording (Posta_BLE (124).wav) - Calf Distress
+COW-CALF-030,#363,Luna #304,Jersey,1,Acute Calf Hunger / Pain Cry,critical,96,3.2,551.7,515.6,4.8,15.0,7.36,80.61,CowRumIA dataset recording (Posta_BLE (125).wav) - Calf Distress
+COW-CALF-031,#364,Buttercup #305,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,2.84,533.3,1078.1,0.92,8.25,10.17,76.08,CowRumIA dataset recording (Posta_BLE (126).wav) - Calf Distress
+COW-CALF-032,#365,Bessie #306,Jersey,1,Acute Calf Hunger / Pain Cry,critical,93,3.16,152.4,468.8,4.9,15.0,7.78,78.7,CowRumIA dataset recording (Posta_BLE (127).wav) - Calf Distress
+COW-CALF-033,#366,Penny #307,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,90,3.04,111.9,421.9,0.39,10.11,6.45,79.04,CowRumIA dataset recording (Posta_BLE (128).wav) - Calf Distress
+COW-CALF-034,#367,Ruby #308,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,97,3.16,122.4,375.0,7.04,15.0,4.46,79.87,CowRumIA dataset recording (Posta_BLE (129).wav) - Calf Distress
+COW-CALF-035,#368,Rosie #309,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,95,3.12,144.6,562.5,3.42,14.53,6.69,78.12,CowRumIA dataset recording (Posta_BLE (13).wav) - Calf Distress
+COW-CALF-036,#369,Stella #310,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,97,2.0,122.4,375.0,7.86,15.0,3.47,81.74,CowRumIA dataset recording (Posta_BLE (130).wav) - Calf Distress
+COW-CALF-037,#370,Chloe #311,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,89,2.88,133.3,375.0,3.62,6.39,6.07,75.04,CowRumIA dataset recording (Posta_BLE (131).wav) - Calf Distress
+COW-CALF-038,#371,Maggie #312,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,3.16,136.8,421.9,4.71,6.62,5.71,78.09,CowRumIA dataset recording (Posta_BLE (132).wav) - Calf Distress
+COW-CALF-039,#372,Ganga #313,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,91,3.36,400.0,375.0,4.36,8.65,6.32,78.62,CowRumIA dataset recording (Posta_BLE (133).wav) - Calf Distress
+COW-CALF-040,#373,Yamuna #314,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,92,2.8,162.2,328.1,6.4,7.89,4.25,78.79,CowRumIA dataset recording (Posta_BLE (134).wav) - Calf Distress
+COW-CALF-041,#374,Kaveri #315,Gir,1,Acute Calf Hunger / Pain Cry,critical,92,3.04,151.9,281.2,3.28,9.83,6.11,79.06,CowRumIA dataset recording (Posta_BLE (135).wav) - Calf Distress
+COW-CALF-042,#375,Chitra #316,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,96,3.48,102.8,93.8,0.0,15.0,9.49,70.78,CowRumIA dataset recording (Posta_BLE (136).wav) - Calf Distress
+COW-CALF-043,#376,Devaki #317,Gir,1,Acute Calf Hunger / Pain Cry,critical,91,3.24,118.2,375.0,7.73,13.41,5.17,81.19,CowRumIA dataset recording (Posta_BLE (137).wav) - Calf Distress
+COW-CALF-044,#377,Anandi #318,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,96,3.2,119.4,375.0,3.22,7.82,9.96,77.04,CowRumIA dataset recording (Posta_BLE (138).wav) - Calf Distress
+COW-CALF-045,#378,Meera #319,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,93,3.64,116.2,375.0,0.57,7.44,8.84,78.08,CowRumIA dataset recording (Posta_BLE (139).wav) - Calf Distress
+COW-CALF-046,#379,Durga #320,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,88,3.12,135.6,796.9,1.23,15.0,8.35,76.61,CowRumIA dataset recording (Posta_BLE (14).wav) - Calf Distress
+COW-CALF-047,#300,Tulsi #321,Gir,1,Acute Calf Hunger / Pain Cry,critical,94,3.32,355.6,328.1,1.52,14.65,5.71,79.47,CowRumIA dataset recording (Posta_BLE (140).wav) - Calf Distress
+COW-CALF-048,#301,Parvati #322,Gir,1,Acute Calf Hunger / Pain Cry,critical,96,3.12,130.1,375.0,4.59,15.0,8.74,79.4,CowRumIA dataset recording (Posta_BLE (141).wav) - Calf Distress
+COW-CALF-049,#302,Radha #323,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,90,3.44,505.3,468.8,2.53,15.0,8.4,78.07,CowRumIA dataset recording (Posta_BLE (142).wav) - Calf Distress
+COW-CALF-050,#303,Lakshmi #324,Gir,1,Acute Calf Hunger / Pain Cry,critical,92,3.12,117.1,937.5,0.0,5.33,8.89,75.17,CowRumIA dataset recording (Posta_BLE (143).wav) - Calf Distress
+COW-CALF-051,#304,Bella #325,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,89,2.0,695.7,750.0,0.0,15.0,12.85,74.07,CowRumIA dataset recording (Posta_BLE (144).wav) - Calf Distress
+COW-CALF-052,#305,Daisy #326,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,90,3.56,113.5,562.5,4.28,15.0,10.15,78.02,CowRumIA dataset recording (Posta_BLE (145).wav) - Calf Distress
+COW-CALF-053,#306,Molly #327,Jersey,1,Acute Calf Hunger / Pain Cry,critical,92,3.08,148.6,421.9,3.63,15.0,6.99,79.1,CowRumIA dataset recording (Posta_BLE (146).wav) - Calf Distress
+COW-CALF-054,#307,Luna #328,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,90,3.08,539.3,468.8,0.46,15.0,8.33,77.82,CowRumIA dataset recording (Posta_BLE (147).wav) - Calf Distress
+COW-CALF-055,#308,Buttercup #329,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,2.0,421.1,46.9,0.0,15.0,9.64,79.39,CowRumIA dataset recording (Posta_BLE (148).wav) - Calf Distress
+COW-CALF-056,#309,Bessie #330,Gir,1,Acute Calf Hunger / Pain Cry,critical,91,2.96,154.8,1078.1,6.69,15.0,5.42,79.59,CowRumIA dataset recording (Posta_BLE (149).wav) - Calf Distress
+COW-CALF-057,#310,Penny #331,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,93,3.56,527.5,515.6,5.2,10.65,10.16,75.43,CowRumIA dataset recording (Posta_BLE (15).wav) - Calf Distress
+COW-CALF-058,#311,Ruby #332,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,93,3.8,164.9,468.8,0.0,9.16,6.98,78.87,CowRumIA dataset recording (Posta_BLE (150).wav) - Calf Distress
+COW-CALF-059,#312,Rosie #333,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,91,2.76,470.6,937.5,2.73,15.0,5.49,78.37,CowRumIA dataset recording (Posta_BLE (151).wav) - Calf Distress
+COW-CALF-060,#313,Stella #334,Gir,1,Acute Calf Hunger / Pain Cry,critical,91,2.2,564.7,46.9,0.0,10.93,10.42,76.73,CowRumIA dataset recording (Posta_BLE (152).wav) - Calf Distress
+COW-CALF-061,#314,Chloe #335,Jersey,1,Acute Calf Hunger / Pain Cry,critical,93,2.2,705.9,46.9,1.19,9.7,9.48,78.62,CowRumIA dataset recording (Posta_BLE (153).wav) - Calf Distress
+COW-CALF-062,#315,Maggie #336,Gir,1,Acute Calf Hunger / Pain Cry,critical,90,3.04,516.1,1500.0,0.0,15.0,7.37,78.02,CowRumIA dataset recording (Posta_BLE (154).wav) - Calf Distress
+COW-CALF-063,#316,Ganga #337,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,96,2.92,521.7,609.4,0.0,14.9,8.78,78.25,CowRumIA dataset recording (Posta_BLE (155).wav) - Calf Distress
+COW-CALF-064,#317,Yamuna #338,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,88,2.8,510.6,1500.0,0.0,10.71,8.23,77.13,CowRumIA dataset recording (Posta_BLE (156).wav) - Calf Distress
+COW-CALF-065,#318,Kaveri #339,Jersey,1,Acute Calf Hunger / Pain Cry,critical,93,3.12,521.7,609.4,0.0,8.64,8.11,77.79,CowRumIA dataset recording (Posta_BLE (157).wav) - Calf Distress
+COW-CALF-066,#319,Chitra #340,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,91,2.68,657.5,609.4,0.0,15.0,8.41,78.15,CowRumIA dataset recording (Posta_BLE (158).wav) - Calf Distress
+COW-CALF-067,#320,Devaki #341,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,90,3.016,551.7,93.8,0.0,11.93,9.5,75.8,CowRumIA dataset recording (Posta_BLE (159).wav) - Calf Distress
+COW-CALF-068,#321,Anandi #342,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,88,3.52,571.4,562.5,3.42,14.67,7.75,80.45,CowRumIA dataset recording (Posta_BLE (16).wav) - Calf Distress
+COW-CALF-069,#322,Meera #343,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,91,3.2,545.5,515.6,2.22,15.0,9.15,78.52,CowRumIA dataset recording (Posta_BLE (160).wav) - Calf Distress
+COW-CALF-070,#323,Durga #344,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,88,2.905,558.1,46.9,0.0,11.57,8.23,74.14,CowRumIA dataset recording (Posta_BLE (161).wav) - Calf Distress
+COW-CALF-071,#324,Tulsi #345,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,91,3.12,139.5,421.9,0.0,11.36,8.29,75.38,CowRumIA dataset recording (Posta_BLE (162).wav) - Calf Distress
+COW-CALF-072,#325,Parvati #346,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,88,3.0,111.4,562.5,2.94,15.0,5.5,80.18,CowRumIA dataset recording (Posta_BLE (163).wav) - Calf Distress
+COW-CALF-073,#326,Radha #347,Gir,1,Acute Calf Hunger / Pain Cry,critical,95,3.4,191.2,562.5,2.88,15.0,8.92,80.33,CowRumIA dataset recording (Posta_BLE (164).wav) - Calf Distress
+COW-CALF-074,#327,Lakshmi #348,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,94,3.28,111.4,562.5,0.87,15.0,8.02,78.37,CowRumIA dataset recording (Posta_BLE (165).wav) - Calf Distress
+COW-CALF-075,#328,Bella #349,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,88,3.04,640.0,562.5,0.43,15.0,8.57,79.74,CowRumIA dataset recording (Posta_BLE (166).wav) - Calf Distress
+COW-CALF-076,#329,Daisy #350,Jersey,1,Acute Calf Hunger / Pain Cry,critical,90,3.24,623.4,562.5,2.68,15.0,7.12,80.76,CowRumIA dataset recording (Posta_BLE (167).wav) - Calf Distress
+COW-CALF-077,#330,Molly #351,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,89,3.16,110.6,562.5,0.59,15.0,6.88,78.27,CowRumIA dataset recording (Posta_BLE (168).wav) - Calf Distress
+COW-CALF-078,#331,Luna #352,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,2.76,108.6,562.5,3.26,15.0,6.61,75.74,CowRumIA dataset recording (Posta_BLE (169).wav) - Calf Distress
+COW-CALF-079,#332,Buttercup #353,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,90,3.12,142.0,562.5,2.63,10.61,13.14,74.54,CowRumIA dataset recording (Posta_BLE (17).wav) - Calf Distress
+COW-CALF-080,#333,Bessie #354,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,2.52,521.7,515.6,0.81,15.0,8.99,79.67,CowRumIA dataset recording (Posta_BLE (170).wav) - Calf Distress
+COW-CALF-081,#334,Penny #355,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,97,3.32,287.4,562.5,2.98,6.04,5.14,82.59,CowRumIA dataset recording (Posta_BLE (171).wav) - Calf Distress
+COW-CALF-082,#335,Ruby #356,Jersey,1,Acute Calf Hunger / Pain Cry,critical,91,3.04,640.0,609.4,2.82,10.14,5.32,81.72,CowRumIA dataset recording (Posta_BLE (172).wav) - Calf Distress
+COW-CALF-083,#336,Rosie #357,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,95,3.56,585.4,515.6,1.07,7.97,6.99,77.94,CowRumIA dataset recording (Posta_BLE (173).wav) - Calf Distress
+COW-CALF-084,#337,Stella #358,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,95,3.24,640.0,562.5,3.69,15.0,4.47,81.1,CowRumIA dataset recording (Posta_BLE (174).wav) - Calf Distress
+COW-CALF-085,#338,Chloe #359,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,89,3.16,631.6,562.5,2.16,7.43,6.38,81.6,CowRumIA dataset recording (Posta_BLE (175).wav) - Calf Distress
+COW-CALF-086,#339,Maggie #360,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,89,3.0,600.0,46.9,0.0,11.44,10.0,74.29,CowRumIA dataset recording (Posta_BLE (176).wav) - Calf Distress
+COW-CALF-087,#340,Ganga #361,Gir,1,Acute Calf Hunger / Pain Cry,critical,89,3.16,112.7,562.5,3.87,6.0,7.07,78.94,CowRumIA dataset recording (Posta_BLE (177).wav) - Calf Distress
+COW-CALF-088,#341,Yamuna #362,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,92,3.0,545.5,515.6,3.1,11.94,7.88,77.07,CowRumIA dataset recording (Posta_BLE (178).wav) - Calf Distress
+COW-CALF-089,#342,Kaveri #363,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,88,4.28,600.0,562.5,1.16,15.0,5.69,81.02,CowRumIA dataset recording (Posta_BLE (179).wav) - Calf Distress
+COW-CALF-090,#343,Chitra #364,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,93,3.44,146.8,421.9,3.74,7.92,7.31,79.1,CowRumIA dataset recording (Posta_BLE (18).wav) - Calf Distress
+COW-CALF-091,#344,Devaki #365,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,3.16,592.6,562.5,3.38,4.72,7.06,77.77,CowRumIA dataset recording (Posta_BLE (180).wav) - Calf Distress
+COW-CALF-092,#345,Anandi #366,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,97,3.0,615.4,562.5,3.88,3.14,5.94,79.48,CowRumIA dataset recording (Posta_BLE (181).wav) - Calf Distress
+COW-CALF-093,#346,Meera #367,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,89,2.12,607.6,562.5,1.73,15.0,6.27,79.0,CowRumIA dataset recording (Posta_BLE (182).wav) - Calf Distress
+COW-CALF-094,#347,Durga #368,Gir,1,Acute Calf Hunger / Pain Cry,critical,90,3.2,666.7,46.9,0.0,3.7,8.73,76.94,CowRumIA dataset recording (Posta_BLE (183).wav) - Calf Distress
+COW-CALF-095,#348,Tulsi #369,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,96,3.12,640.0,1265.6,0.61,8.5,8.88,77.51,CowRumIA dataset recording (Posta_BLE (184).wav) - Calf Distress
+COW-CALF-096,#349,Parvati #370,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,3.08,648.6,609.4,0.55,7.69,8.01,78.41,CowRumIA dataset recording (Posta_BLE (185).wav) - Calf Distress
+COW-CALF-097,#350,Radha #371,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,95,2.92,153.8,468.8,2.5,7.51,8.38,76.87,CowRumIA dataset recording (Posta_BLE (186).wav) - Calf Distress
+COW-CALF-098,#351,Lakshmi #372,Jersey,1,Acute Calf Hunger / Pain Cry,critical,95,3.12,631.6,562.5,1.68,15.0,8.34,79.25,CowRumIA dataset recording (Posta_BLE (187).wav) - Calf Distress
+COW-CALF-099,#352,Bella #373,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,94,3.08,114.6,562.5,1.93,7.58,7.89,77.36,CowRumIA dataset recording (Posta_BLE (188).wav) - Calf Distress
+COW-CALF-100,#353,Daisy #374,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,94,3.4,140.4,984.4,1.59,13.26,9.04,77.85,CowRumIA dataset recording (Posta_BLE (189).wav) - Calf Distress
+COW-CALF-101,#354,Molly #375,Gir,1,Acute Calf Hunger / Pain Cry,critical,89,3.08,73.1,515.6,0.0,15.0,9.16,75.31,CowRumIA dataset recording (Posta_BLE (19).wav) - Calf Distress
+COW-CALF-102,#355,Luna #376,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,95,2.12,600.0,46.9,0.92,15.0,7.77,78.99,CowRumIA dataset recording (Posta_BLE (190).wav) - Calf Distress
+COW-CALF-103,#356,Buttercup #377,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,89,3.0,657.5,609.4,0.97,9.76,7.82,78.08,CowRumIA dataset recording (Posta_BLE (191).wav) - Calf Distress
+COW-CALF-104,#357,Bessie #378,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,3.0,108.8,562.5,5.95,13.5,4.96,80.05,CowRumIA dataset recording (Posta_BLE (192).wav) - Calf Distress
+COW-CALF-105,#358,Penny #379,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,91,2.2,695.7,609.4,0.67,14.54,7.8,78.99,CowRumIA dataset recording (Posta_BLE (193).wav) - Calf Distress
+COW-CALF-106,#359,Ruby #380,Gir,1,Acute Calf Hunger / Pain Cry,critical,91,2.68,144.1,1593.8,0.0,7.99,9.6,78.0,CowRumIA dataset recording (Posta_BLE (194).wav) - Calf Distress
+COW-CALF-107,#360,Rosie #381,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,3.12,127.7,1921.9,0.29,15.0,6.22,78.12,CowRumIA dataset recording (Posta_BLE (195).wav) - Calf Distress
+COW-CALF-108,#361,Stella #382,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,89,3.0,143.7,1593.8,0.0,15.0,8.16,78.1,CowRumIA dataset recording (Posta_BLE (196).wav) - Calf Distress
+COW-CALF-109,#362,Chloe #383,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,91,2.48,695.7,140.6,0.0,15.0,7.39,78.67,CowRumIA dataset recording (Posta_BLE (197).wav) - Calf Distress
+COW-CALF-110,#363,Maggie #384,Gir,1,Acute Calf Hunger / Pain Cry,critical,92,2.84,716.4,1500.0,1.35,15.0,7.13,78.56,CowRumIA dataset recording (Posta_BLE (198).wav) - Calf Distress
+COW-CALF-111,#364,Ganga #385,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,91,2.48,115.9,562.5,1.54,15.0,8.18,76.99,CowRumIA dataset recording (Posta_BLE (199).wav) - Calf Distress
+COW-CALF-112,#365,Yamuna #386,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,3.16,149.1,468.8,5.0,9.34,6.01,79.51,CowRumIA dataset recording (Posta_BLE (2).wav) - Calf Distress
+COW-CALF-113,#366,Kaveri #387,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,92,3.2,135.2,937.5,0.0,10.24,9.46,74.95,CowRumIA dataset recording (Posta_BLE (20).wav) - Calf Distress
+COW-CALF-114,#367,Chitra #388,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,89,2.16,516.1,468.8,2.67,9.24,8.04,80.77,CowRumIA dataset recording (Posta_BLE (200).wav) - Calf Distress
+COW-CALF-115,#368,Devaki #389,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,93,3.4,116.8,562.5,0.76,14.62,8.38,75.77,CowRumIA dataset recording (Posta_BLE (201).wav) - Calf Distress
+COW-CALF-116,#369,Anandi #390,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,2.2,77.9,468.8,1.35,15.0,7.92,77.19,CowRumIA dataset recording (Posta_BLE (202).wav) - Calf Distress
+COW-CALF-117,#370,Meera #391,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,96,3.96,558.1,562.5,5.75,7.84,8.92,79.33,CowRumIA dataset recording (Posta_BLE (203).wav) - Calf Distress
+COW-CALF-118,#371,Durga #392,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,88,2.64,156.9,468.8,6.33,5.68,8.09,78.39,CowRumIA dataset recording (Posta_BLE (204).wav) - Calf Distress
+COW-CALF-119,#372,Tulsi #393,Gir,1,Acute Calf Hunger / Pain Cry,critical,90,3.04,413.8,421.9,1.09,15.0,8.18,77.51,CowRumIA dataset recording (Posta_BLE (205).wav) - Calf Distress
+COW-CALF-120,#373,Parvati #394,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,92,3.12,66.2,375.0,0.9,5.11,7.82,78.45,CowRumIA dataset recording (Posta_BLE (206).wav) - Calf Distress
+COW-CALF-121,#374,Radha #395,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,89,2.84,452.8,468.8,5.98,13.98,7.0,79.32,CowRumIA dataset recording (Posta_BLE (207).wav) - Calf Distress
+COW-CALF-122,#375,Lakshmi #396,Gir,1,Acute Calf Hunger / Pain Cry,critical,96,3.0,133.7,421.9,0.6,11.63,6.53,78.64,CowRumIA dataset recording (Posta_BLE (208).wav) - Calf Distress
+COW-CALF-123,#376,Bella #397,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,95,3.04,141.2,421.9,1.97,11.6,4.7,80.67,CowRumIA dataset recording (Posta_BLE (209).wav) - Calf Distress
+COW-CALF-124,#377,Daisy #398,Jersey,1,Acute Calf Hunger / Pain Cry,critical,88,3.2,139.9,984.4,3.45,15.0,6.29,78.7,CowRumIA dataset recording (Posta_BLE (21).wav) - Calf Distress
+COW-CALF-125,#378,Molly #399,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,94,2.4,138.7,421.9,4.49,15.0,5.21,80.25,CowRumIA dataset recording (Posta_BLE (210).wav) - Calf Distress
+COW-CALF-126,#379,Luna #400,Gir,1,Acute Calf Hunger / Pain Cry,critical,88,3.16,227.5,468.8,0.75,13.9,7.94,81.14,CowRumIA dataset recording (Posta_BLE (211).wav) - Calf Distress
+COW-CALF-127,#300,Buttercup #401,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,95,2.64,139.1,421.9,7.73,15.0,5.61,80.35,CowRumIA dataset recording (Posta_BLE (212).wav) - Calf Distress
+COW-CALF-128,#301,Bessie #402,Gir,1,Acute Calf Hunger / Pain Cry,critical,89,2.775,510.6,984.4,1.39,10.69,9.96,77.63,CowRumIA dataset recording (Posta_BLE (213).wav) - Calf Distress
+COW-CALF-129,#302,Penny #403,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,91,2.56,142.4,421.9,3.67,15.0,9.06,78.87,CowRumIA dataset recording (Posta_BLE (214).wav) - Calf Distress
+COW-CALF-130,#303,Ruby #404,Jersey,1,Acute Calf Hunger / Pain Cry,critical,91,3.64,516.1,468.8,1.89,15.0,5.29,80.63,CowRumIA dataset recording (Posta_BLE (215).wav) - Calf Distress
+COW-CALF-131,#304,Rosie #405,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,91,3.008,149.5,421.9,1.06,7.92,7.4,79.68,CowRumIA dataset recording (Posta_BLE (216).wav) - Calf Distress
+COW-CALF-132,#305,Stella #406,Jersey,1,Acute Calf Hunger / Pain Cry,critical,97,2.88,118.5,609.4,0.0,15.0,8.3,79.29,CowRumIA dataset recording (Posta_BLE (217).wav) - Calf Distress
+COW-CALF-133,#306,Chloe #407,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,90,3.4,150.9,468.8,2.32,15.0,7.53,79.08,CowRumIA dataset recording (Posta_BLE (218).wav) - Calf Distress
+COW-CALF-134,#307,Maggie #408,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,90,2.48,545.5,562.5,2.0,15.0,7.98,78.5,CowRumIA dataset recording (Posta_BLE (219).wav) - Calf Distress
+COW-CALF-135,#308,Ganga #409,Gir,1,Acute Calf Hunger / Pain Cry,critical,96,3.52,148.1,1031.2,3.2,12.27,7.15,76.79,CowRumIA dataset recording (Posta_BLE (22).wav) - Calf Distress
+COW-CALF-136,#309,Yamuna #410,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,95,2.08,516.1,468.8,0.88,13.66,8.3,79.53,CowRumIA dataset recording (Posta_BLE (220).wav) - Calf Distress
+COW-CALF-137,#310,Kaveri #411,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,90,3.04,489.8,421.9,0.64,15.0,9.57,75.02,CowRumIA dataset recording (Posta_BLE (221).wav) - Calf Distress
+COW-CALF-138,#311,Chitra #412,Gir,1,Acute Calf Hunger / Pain Cry,critical,95,2.84,551.7,515.6,3.32,13.45,10.63,76.52,CowRumIA dataset recording (Posta_BLE (222).wav) - Calf Distress
+COW-CALF-139,#312,Devaki #413,Jersey,1,Acute Calf Hunger / Pain Cry,critical,93,3.52,505.3,468.8,1.04,12.92,8.26,76.05,CowRumIA dataset recording (Posta_BLE (223).wav) - Calf Distress
+COW-CALF-140,#313,Anandi #414,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,97,2.68,146.8,1031.2,1.72,15.0,10.15,74.66,CowRumIA dataset recording (Posta_BLE (224).wav) - Calf Distress
+COW-CALF-141,#314,Meera #415,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,88,2.08,533.3,515.6,2.62,13.87,10.12,76.9,CowRumIA dataset recording (Posta_BLE (225).wav) - Calf Distress
+COW-CALF-142,#315,Durga #416,Jersey,1,Acute Calf Hunger / Pain Cry,critical,96,3.52,148.1,468.8,3.35,15.0,6.13,78.11,CowRumIA dataset recording (Posta_BLE (226).wav) - Calf Distress
+COW-CALF-143,#316,Tulsi #417,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,92,3.36,564.7,515.6,3.74,14.06,10.26,76.75,CowRumIA dataset recording (Posta_BLE (23).wav) - Calf Distress
+COW-CALF-144,#317,Parvati #418,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,3.2,152.9,468.8,4.74,14.28,6.74,80.4,CowRumIA dataset recording (Posta_BLE (24).wav) - Calf Distress
+COW-CALF-145,#318,Radha #419,Jersey,1,Acute Calf Hunger / Pain Cry,critical,93,3.04,153.4,468.8,3.84,15.0,8.65,77.44,CowRumIA dataset recording (Posta_BLE (25).wav) - Calf Distress
+COW-CALF-146,#319,Lakshmi #420,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,96,3.08,545.5,468.8,0.0,15.0,8.68,76.45,CowRumIA dataset recording (Posta_BLE (26).wav) - Calf Distress
+COW-CALF-147,#320,Bella #421,Gir,1,Acute Calf Hunger / Pain Cry,critical,94,3.2,134.5,515.6,2.81,15.0,6.98,78.06,CowRumIA dataset recording (Posta_BLE (27).wav) - Calf Distress
+COW-CALF-148,#321,Daisy #422,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,97,3.04,134.1,515.6,2.86,15.0,8.75,77.47,CowRumIA dataset recording (Posta_BLE (28).wav) - Calf Distress
+COW-CALF-149,#322,Molly #423,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,96,3.24,545.5,515.6,6.3,15.0,11.22,76.25,CowRumIA dataset recording (Posta_BLE (29).wav) - Calf Distress
+COW-CALF-150,#323,Luna #424,Gir,1,Acute Calf Hunger / Pain Cry,critical,92,3.12,149.5,468.8,2.95,15.0,6.32,78.99,CowRumIA dataset recording (Posta_BLE (3).wav) - Calf Distress
+COW-CALF-151,#324,Buttercup #425,Gir,1,Acute Calf Hunger / Pain Cry,critical,88,3.12,132.6,515.6,0.87,15.0,8.32,77.29,CowRumIA dataset recording (Posta_BLE (30).wav) - Calf Distress
+COW-CALF-152,#325,Bessie #426,Gir,1,Acute Calf Hunger / Pain Cry,critical,93,3.84,539.3,515.6,0.0,12.05,8.72,76.9,CowRumIA dataset recording (Posta_BLE (31).wav) - Calf Distress
+COW-CALF-153,#326,Penny #427,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,88,3.12,148.6,421.9,4.57,12.32,6.8,78.16,CowRumIA dataset recording (Posta_BLE (32).wav) - Calf Distress
+COW-CALF-154,#327,Ruby #428,Jersey,1,Acute Calf Hunger / Pain Cry,critical,92,3.0,149.1,1031.2,1.14,7.03,8.04,76.98,CowRumIA dataset recording (Posta_BLE (33).wav) - Calf Distress
+COW-CALF-155,#328,Rosie #429,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,95,3.16,527.5,468.8,0.1,15.0,9.86,73.94,CowRumIA dataset recording (Posta_BLE (34).wav) - Calf Distress
+COW-CALF-156,#329,Stella #430,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,91,3.405,145.5,1031.2,1.16,13.23,9.98,75.05,CowRumIA dataset recording (Posta_BLE (35).wav) - Calf Distress
+COW-CALF-157,#330,Chloe #431,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,89,3.16,151.9,468.8,3.65,4.91,8.69,76.59,CowRumIA dataset recording (Posta_BLE (36).wav) - Calf Distress
+COW-CALF-158,#331,Maggie #432,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,97,3.257,527.5,515.6,4.28,14.2,7.19,78.82,CowRumIA dataset recording (Posta_BLE (37).wav) - Calf Distress
+COW-CALF-159,#332,Ganga #433,Jersey,1,Acute Calf Hunger / Pain Cry,critical,96,3.006,551.7,515.6,1.83,5.74,8.79,78.71,CowRumIA dataset recording (Posta_BLE (38).wav) - Calf Distress
+COW-CALF-160,#333,Yamuna #434,Gir,1,Acute Calf Hunger / Pain Cry,critical,96,3.54,564.7,46.9,0.74,7.52,9.07,78.01,CowRumIA dataset recording (Posta_BLE (39).wav) - Calf Distress
+COW-CALF-161,#334,Kaveri #435,Gir,1,Acute Calf Hunger / Pain Cry,critical,93,2.88,500.0,468.8,4.07,14.91,10.06,75.84,CowRumIA dataset recording (Posta_BLE (4).wav) - Calf Distress
+COW-CALF-162,#335,Chitra #436,Jersey,1,Acute Calf Hunger / Pain Cry,critical,97,3.072,539.3,515.6,1.91,13.21,9.78,76.72,CowRumIA dataset recording (Posta_BLE (40).wav) - Calf Distress
+COW-CALF-163,#336,Devaki #437,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,91,3.92,533.3,46.9,0.0,5.72,10.85,75.54,CowRumIA dataset recording (Posta_BLE (41).wav) - Calf Distress
+COW-CALF-164,#337,Anandi #438,Jersey,1,Acute Calf Hunger / Pain Cry,critical,97,3.32,533.3,1078.1,0.0,13.35,6.74,78.31,CowRumIA dataset recording (Posta_BLE (42).wav) - Calf Distress
+COW-CALF-165,#338,Meera #439,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,89,3.24,158.4,468.8,4.88,11.67,5.68,80.87,CowRumIA dataset recording (Posta_BLE (43).wav) - Calf Distress
+COW-CALF-166,#339,Durga #440,Gir,1,Acute Calf Hunger / Pain Cry,critical,89,3.08,155.3,468.8,3.31,6.25,6.78,80.29,CowRumIA dataset recording (Posta_BLE (44).wav) - Calf Distress
+COW-CALF-167,#340,Tulsi #441,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,89,3.96,432.4,46.9,0.0,5.58,10.05,76.65,CowRumIA dataset recording (Posta_BLE (45).wav) - Calf Distress
+COW-CALF-168,#341,Parvati #442,Jersey,1,Acute Calf Hunger / Pain Cry,critical,92,3.08,155.3,1078.1,1.6,10.95,7.39,77.52,CowRumIA dataset recording (Posta_BLE (46).wav) - Calf Distress
+COW-CALF-169,#342,Radha #443,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,90,3.0,68.6,46.9,0.79,8.92,8.75,78.87,CowRumIA dataset recording (Posta_BLE (47).wav) - Calf Distress
+COW-CALF-170,#343,Lakshmi #444,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,89,3.04,571.4,515.6,0.85,13.3,9.15,78.09,CowRumIA dataset recording (Posta_BLE (48).wav) - Calf Distress
+COW-CALF-171,#344,Bella #445,Gir,1,Acute Calf Hunger / Pain Cry,critical,97,2.64,134.5,421.9,0.0,5.75,7.98,78.47,CowRumIA dataset recording (Posta_BLE (49).wav) - Calf Distress
+COW-CALF-172,#345,Daisy #446,Jersey,1,Acute Calf Hunger / Pain Cry,critical,95,3.08,145.0,1031.2,1.46,15.0,10.04,76.85,CowRumIA dataset recording (Posta_BLE (5).wav) - Calf Distress
+COW-CALF-173,#346,Molly #447,Jersey,1,Acute Calf Hunger / Pain Cry,critical,90,2.68,78.7,468.8,1.73,5.43,8.19,76.88,CowRumIA dataset recording (Posta_BLE (50).wav) - Calf Distress
+COW-CALF-174,#347,Luna #448,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,97,3.64,578.3,46.9,0.0,15.0,12.87,69.38,CowRumIA dataset recording (Posta_BLE (51).wav) - Calf Distress
+COW-CALF-175,#348,Buttercup #449,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,90,3.24,516.1,421.9,0.0,15.0,6.39,79.08,CowRumIA dataset recording (Posta_BLE (52).wav) - Calf Distress
+COW-CALF-176,#349,Bessie #450,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,93,3.0,149.5,468.8,1.46,11.8,8.28,79.43,CowRumIA dataset recording (Posta_BLE (53).wav) - Calf Distress
+COW-CALF-177,#350,Penny #451,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,89,3.68,156.9,468.8,2.15,10.99,8.45,78.25,CowRumIA dataset recording (Posta_BLE (54).wav) - Calf Distress
+COW-CALF-178,#351,Ruby #452,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,96,2.92,155.3,468.8,3.12,7.43,7.99,77.87,CowRumIA dataset recording (Posta_BLE (55).wav) - Calf Distress
+COW-CALF-179,#352,Rosie #453,Jersey,1,Acute Calf Hunger / Pain Cry,critical,94,3.04,510.6,515.6,4.77,14.06,8.03,76.68,CowRumIA dataset recording (Posta_BLE (56).wav) - Calf Distress
+COW-CALF-180,#353,Stella #454,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,95,3.04,149.1,468.8,0.0,13.47,9.99,72.04,CowRumIA dataset recording (Posta_BLE (57).wav) - Calf Distress
+COW-CALF-181,#354,Chloe #455,Gir,1,Acute Calf Hunger / Pain Cry,critical,90,3.0,406.8,421.9,0.0,9.26,8.83,76.5,CowRumIA dataset recording (Posta_BLE (58).wav) - Calf Distress
+COW-CALF-182,#355,Maggie #456,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,97,3.24,516.1,468.8,2.51,10.92,7.53,77.68,CowRumIA dataset recording (Posta_BLE (59).wav) - Calf Distress
+COW-CALF-183,#356,Ganga #457,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,97,2.52,521.7,468.8,3.58,15.0,11.74,76.64,CowRumIA dataset recording (Posta_BLE (6).wav) - Calf Distress
+COW-CALF-184,#357,Yamuna #458,Gir,1,Acute Calf Hunger / Pain Cry,critical,91,2.44,571.4,1125.0,2.52,15.0,7.08,78.58,CowRumIA dataset recording (Posta_BLE (60).wav) - Calf Distress
+COW-CALF-185,#358,Kaveri #459,Jersey,1,Acute Calf Hunger / Pain Cry,critical,90,3.04,147.7,1031.2,4.71,15.0,8.2,77.2,CowRumIA dataset recording (Posta_BLE (61).wav) - Calf Distress
+COW-CALF-186,#359,Chitra #460,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,97,3.08,139.1,562.5,0.28,7.12,9.75,75.18,CowRumIA dataset recording (Posta_BLE (62).wav) - Calf Distress
+COW-CALF-187,#360,Devaki #461,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,89,2.76,115.4,328.1,3.63,15.0,8.02,77.86,CowRumIA dataset recording (Posta_BLE (63).wav) - Calf Distress
+COW-CALF-188,#361,Anandi #462,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,88,3.48,148.1,421.9,1.24,15.0,8.76,76.73,CowRumIA dataset recording (Posta_BLE (64).wav) - Calf Distress
+COW-CALF-189,#362,Meera #463,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,88,2.88,363.6,375.0,5.62,15.0,2.94,80.9,CowRumIA dataset recording (Posta_BLE (65).wav) - Calf Distress
+COW-CALF-190,#363,Durga #464,Jersey,1,Acute Calf Hunger / Pain Cry,critical,90,2.72,144.6,1734.4,3.79,10.2,7.86,77.32,CowRumIA dataset recording (Posta_BLE (66).wav) - Calf Distress
+COW-CALF-191,#364,Tulsi #465,Jersey,1,Acute Calf Hunger / Pain Cry,critical,93,2.8,500.0,468.8,0.0,15.0,9.51,78.36,CowRumIA dataset recording (Posta_BLE (67).wav) - Calf Distress
+COW-CALF-192,#365,Parvati #466,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,97,3.8,466.0,468.8,1.07,15.0,9.25,79.44,CowRumIA dataset recording (Posta_BLE (68).wav) - Calf Distress
+COW-CALF-193,#366,Radha #467,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,97,2.76,466.0,468.8,8.07,4.29,9.04,79.42,CowRumIA dataset recording (Posta_BLE (69).wav) - Calf Distress
+COW-CALF-194,#367,Lakshmi #468,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,97,2.96,539.3,515.6,3.63,15.0,8.61,77.55,CowRumIA dataset recording (Posta_BLE (7).wav) - Calf Distress
+COW-CALF-195,#368,Bella #469,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,95,2.68,533.3,515.6,0.09,11.63,8.99,78.42,CowRumIA dataset recording (Posta_BLE (70).wav) - Calf Distress
+COW-CALF-196,#369,Daisy #470,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,96,3.44,505.3,468.8,3.47,15.0,8.49,77.22,CowRumIA dataset recording (Posta_BLE (71).wav) - Calf Distress
+COW-CALF-197,#370,Molly #471,Gir,1,Acute Calf Hunger / Pain Cry,critical,93,3.08,151.4,468.8,1.59,7.34,6.33,79.63,CowRumIA dataset recording (Posta_BLE (72).wav) - Calf Distress
+COW-CALF-198,#371,Luna #472,Jersey,1,Acute Calf Hunger / Pain Cry,critical,93,3.12,457.1,468.8,0.0,15.0,10.62,75.97,CowRumIA dataset recording (Posta_BLE (73).wav) - Calf Distress
+COW-CALF-199,#372,Buttercup #473,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,88,3.0,436.4,421.9,1.2,14.46,8.33,76.53,CowRumIA dataset recording (Posta_BLE (74).wav) - Calf Distress
+COW-CALF-200,#373,Bessie #474,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,97,3.32,539.3,93.8,0.0,14.53,9.4,76.0,CowRumIA dataset recording (Posta_BLE (75).wav) - Calf Distress
+COW-CALF-201,#374,Penny #475,Gir,1,Acute Calf Hunger / Pain Cry,critical,92,3.72,74.0,46.9,0.0,12.82,8.26,78.24,CowRumIA dataset recording (Posta_BLE (76).wav) - Calf Distress
+COW-CALF-202,#375,Ruby #476,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,95,2.28,75.9,468.8,2.57,8.34,6.51,80.6,CowRumIA dataset recording (Posta_BLE (77).wav) - Calf Distress
+COW-CALF-203,#376,Rosie #477,Jersey,1,Acute Calf Hunger / Pain Cry,critical,91,3.36,146.8,421.9,4.49,12.31,8.84,74.44,CowRumIA dataset recording (Posta_BLE (78).wav) - Calf Distress
+COW-CALF-204,#377,Stella #478,Jersey,1,Acute Calf Hunger / Pain Cry,critical,93,2.88,578.3,46.9,0.0,15.0,9.81,79.54,CowRumIA dataset recording (Posta_BLE (79).wav) - Calf Distress
+COW-CALF-205,#378,Chloe #479,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,92,2.96,539.3,515.6,2.74,15.0,9.67,77.05,CowRumIA dataset recording (Posta_BLE (8).wav) - Calf Distress
+COW-CALF-206,#379,Maggie #480,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,93,2.76,448.6,46.9,4.13,4.41,10.45,80.05,CowRumIA dataset recording (Posta_BLE (80).wav) - Calf Distress
+COW-CALF-207,#300,Ganga #481,Jersey,1,Acute Calf Hunger / Pain Cry,critical,97,3.36,551.7,46.9,0.98,9.58,12.11,78.7,CowRumIA dataset recording (Posta_BLE (81).wav) - Calf Distress
+COW-CALF-208,#301,Yamuna #482,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,95,3.92,108.8,46.9,0.0,15.0,9.7,76.57,CowRumIA dataset recording (Posta_BLE (82).wav) - Calf Distress
+COW-CALF-209,#302,Kaveri #483,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,88,3.32,475.2,468.8,3.61,12.16,8.22,78.27,CowRumIA dataset recording (Posta_BLE (83).wav) - Calf Distress
+COW-CALF-210,#303,Chitra #484,Jersey,1,Acute Calf Hunger / Pain Cry,critical,88,2.48,160.5,468.8,0.09,15.0,10.04,77.78,CowRumIA dataset recording (Posta_BLE (84).wav) - Calf Distress
+COW-CALF-211,#304,Devaki #485,Jersey,1,Acute Calf Hunger / Pain Cry,critical,90,3.0,113.5,468.8,4.47,15.0,6.48,79.41,CowRumIA dataset recording (Posta_BLE (85).wav) - Calf Distress
+COW-CALF-212,#305,Anandi #486,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,94,3.12,164.4,515.6,5.56,15.0,8.1,77.85,CowRumIA dataset recording (Posta_BLE (86).wav) - Calf Distress
+COW-CALF-213,#306,Meera #487,Gir,1,Acute Calf Hunger / Pain Cry,critical,91,3.84,156.4,468.8,4.19,11.31,5.82,79.22,CowRumIA dataset recording (Posta_BLE (87).wav) - Calf Distress
+COW-CALF-214,#307,Durga #488,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,92,3.04,466.0,421.9,2.09,14.39,9.07,79.64,CowRumIA dataset recording (Posta_BLE (88).wav) - Calf Distress
+COW-CALF-215,#308,Tulsi #489,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,91,3.16,484.8,468.8,1.6,15.0,8.16,77.77,CowRumIA dataset recording (Posta_BLE (89).wav) - Calf Distress
+COW-CALF-216,#309,Parvati #490,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,92,3.04,145.5,421.9,3.42,15.0,8.31,77.76,CowRumIA dataset recording (Posta_BLE (9).wav) - Calf Distress
+COW-CALF-217,#310,Radha #491,Guernsey,1,Acute Calf Hunger / Pain Cry,critical,97,2.96,470.6,468.8,3.02,15.0,8.36,76.74,CowRumIA dataset recording (Posta_BLE (90).wav) - Calf Distress
+COW-CALF-218,#311,Lakshmi #492,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,92,2.64,146.3,421.9,0.0,15.0,8.49,76.51,CowRumIA dataset recording (Posta_BLE (91).wav) - Calf Distress
+COW-CALF-219,#312,Bella #493,Jersey,1,Acute Calf Hunger / Pain Cry,critical,90,3.64,470.6,468.8,1.37,15.0,9.33,78.58,CowRumIA dataset recording (Posta_BLE (92).wav) - Calf Distress
+COW-CALF-220,#313,Daisy #494,Sahiwal,1,Acute Calf Hunger / Pain Cry,critical,94,3.52,457.1,421.9,5.48,15.0,7.96,77.54,CowRumIA dataset recording (Posta_BLE (93).wav) - Calf Distress
+COW-CALF-221,#314,Molly #495,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,92,3.16,133.7,421.9,0.59,15.0,8.35,79.01,CowRumIA dataset recording (Posta_BLE (94).wav) - Calf Distress
+COW-CALF-222,#315,Luna #496,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,97,3.04,500.0,468.8,4.83,15.0,5.42,81.26,CowRumIA dataset recording (Posta_BLE (95).wav) - Calf Distress
+COW-CALF-223,#316,Buttercup #497,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,96,2.92,505.3,421.9,0.38,15.0,8.93,77.69,CowRumIA dataset recording (Posta_BLE (96).wav) - Calf Distress
+COW-CALF-224,#317,Bessie #498,Holstein Friesian,1,Acute Calf Hunger / Pain Cry,critical,91,3.0,500.0,421.9,3.13,15.0,7.45,79.43,CowRumIA dataset recording (Posta_BLE (97).wav) - Calf Distress
+COW-CALF-225,#318,Penny #499,Jersey,1,Acute Calf Hunger / Pain Cry,critical,94,3.04,133.0,375.0,2.4,14.12,6.38,80.24,CowRumIA dataset recording (Posta_BLE (98).wav) - Calf Distress
+COW-CALF-226,#319,Ruby #500,Jersey,1,Acute Calf Hunger / Pain Cry,critical,89,2.96,489.8,468.8,5.8,11.26,6.83,79.67,CowRumIA dataset recording (Posta_BLE (99).wav) - Calf Distress
+COW-MILK-001,#320,Rosie #501,Holstein Friesian,1,Milking Udder Discomfort Call,review,96,2.08,186.8,375.0,2.33,15.0,8.6,76.63,CowRumIA dataset recording (Berlin_LE (1).wav) - Milking Stress
+COW-MILK-002,#321,Stella #502,Jersey,2,Milking Udder Discomfort Call,review,91,2.0,432.4,843.8,2.13,15.0,8.47,79.14,CowRumIA dataset recording (Berlin_LE (10).wav) - Milking Stress
+COW-MILK-003,#322,Chloe #503,Sahiwal,6,Milking Udder Discomfort Call,review,91,3.2,258.1,562.5,0.0,15.0,8.15,77.43,CowRumIA dataset recording (Berlin_LE (11).wav) - Milking Stress
+COW-MILK-004,#323,Maggie #504,Guernsey,2,Milking Udder Discomfort Call,review,92,2.88,480.0,937.5,0.0,15.0,9.14,77.74,CowRumIA dataset recording (Berlin_LE (12).wav) - Milking Stress
+COW-MILK-005,#324,Ganga #505,Jersey,1,Milking Udder Discomfort Call,review,94,3.92,303.8,937.5,0.0,15.0,7.25,76.86,CowRumIA dataset recording (Berlin_LE (13).wav) - Milking Stress
+COW-MILK-006,#325,Yamuna #506,Holstein Friesian,6,Milking Udder Discomfort Call,review,92,2.04,243.7,234.4,0.0,15.0,8.78,77.73,CowRumIA dataset recording (Berlin_LE (14).wav) - Milking Stress
+COW-MILK-007,#326,Kaveri #507,Sahiwal,1,Milking Udder Discomfort Call,review,95,2.88,233.0,234.4,0.0,15.0,10.52,76.48,CowRumIA dataset recording (Berlin_LE (15).wav) - Milking Stress
+COW-MILK-008,#327,Chitra #508,Jersey,5,Milking Udder Discomfort Call,review,89,2.04,174.5,328.1,3.2,15.0,9.6,75.22,CowRumIA dataset recording (Berlin_LE (16).wav) - Milking Stress
+COW-MILK-009,#328,Devaki #509,Gir,3,Milking Udder Discomfort Call,review,92,2.96,196.7,1171.9,9.03,12.62,5.47,79.3,CowRumIA dataset recording (Berlin_LE (17).wav) - Milking Stress
+COW-MILK-010,#329,Anandi #510,Holstein Friesian,1,Milking Udder Discomfort Call,review,95,2.0,183.9,937.5,7.09,12.46,6.32,79.35,CowRumIA dataset recording (Berlin_LE (18).wav) - Milking Stress
+COW-MILK-011,#330,Meera #511,Guernsey,4,Milking Udder Discomfort Call,review,90,2.24,207.8,187.5,4.48,15.0,7.95,80.92,CowRumIA dataset recording (Berlin_LE (19).wav) - Milking Stress
+COW-MILK-012,#331,Durga #512,Guernsey,6,Milking Udder Discomfort Call,review,97,2.04,186.0,375.0,1.08,15.0,7.61,79.17,CowRumIA dataset recording (Berlin_LE (2).wav) - Milking Stress
+COW-MILK-013,#332,Tulsi #513,Guernsey,2,Milking Udder Discomfort Call,review,89,2.16,214.3,234.4,5.45,15.0,6.4,82.34,CowRumIA dataset recording (Berlin_LE (20).wav) - Milking Stress
+COW-MILK-014,#333,Parvati #514,Guernsey,2,Milking Udder Discomfort Call,review,95,2.8,67.5,187.5,0.0,15.0,11.16,79.66,CowRumIA dataset recording (Berlin_LE (21).wav) - Milking Stress
+COW-MILK-015,#334,Radha #515,Gir,6,Milking Udder Discomfort Call,review,91,2.44,199.2,609.4,3.53,15.0,5.8,78.87,CowRumIA dataset recording (Berlin_LE (22).wav) - Milking Stress
+COW-MILK-016,#335,Lakshmi #516,Gir,1,Milking Udder Discomfort Call,review,92,2.0,177.8,1218.8,0.88,15.0,10.44,76.29,CowRumIA dataset recording (Berlin_LE (23).wav) - Milking Stress
+COW-MILK-017,#336,Bella #517,Holstein Friesian,4,Milking Udder Discomfort Call,review,90,2.36,202.5,1218.8,5.47,7.4,3.21,81.98,CowRumIA dataset recording (Berlin_LE (24).wav) - Milking Stress
+COW-MILK-018,#337,Daisy #518,Sahiwal,3,Milking Udder Discomfort Call,review,94,2.24,192.8,937.5,6.03,15.0,8.33,76.84,CowRumIA dataset recording (Berlin_LE (25).wav) - Milking Stress
+COW-MILK-019,#338,Molly #519,Gir,6,Milking Udder Discomfort Call,review,90,2.08,176.5,890.6,6.51,15.0,8.1,75.9,CowRumIA dataset recording (Berlin_LE (26).wav) - Milking Stress
+COW-MILK-020,#339,Luna #520,Gir,1,Milking Udder Discomfort Call,review,93,2.52,150.5,281.2,0.0,15.0,9.51,72.6,CowRumIA dataset recording (Berlin_LE (27).wav) - Milking Stress
+COW-MILK-021,#340,Buttercup #521,Gir,5,Milking Udder Discomfort Call,review,93,2.36,174.5,1218.8,4.02,15.0,7.18,75.51,CowRumIA dataset recording (Berlin_LE (28).wav) - Milking Stress
+COW-MILK-022,#341,Bessie #522,Sahiwal,2,Milking Udder Discomfort Call,review,97,3.84,227.5,234.4,2.75,5.8,8.56,75.87,CowRumIA dataset recording (Berlin_LE (29).wav) - Milking Stress
+COW-MILK-023,#342,Penny #523,Jersey,1,Milking Udder Discomfort Call,review,97,2.0,176.5,328.1,0.0,15.0,6.61,73.88,CowRumIA dataset recording (Berlin_LE (3).wav) - Milking Stress
+COW-MILK-024,#343,Ruby #524,Holstein Friesian,2,Milking Udder Discomfort Call,review,92,3.48,101.9,187.5,3.83,15.0,6.78,82.01,CowRumIA dataset recording (Berlin_LE (30).wav) - Milking Stress
+COW-MILK-025,#344,Rosie #525,Jersey,1,Milking Udder Discomfort Call,review,93,2.12,104.3,187.5,0.0,15.0,10.88,80.69,CowRumIA dataset recording (Berlin_LE (31).wav) - Milking Stress
+COW-MILK-026,#345,Stella #526,Gir,2,Milking Udder Discomfort Call,review,90,3.4,233.0,187.5,0.0,15.0,10.42,75.67,CowRumIA dataset recording (Berlin_LE (32).wav) - Milking Stress
+COW-MILK-027,#346,Chloe #527,Jersey,6,Milking Udder Discomfort Call,review,95,2.96,184.6,187.5,3.55,14.32,8.63,72.91,CowRumIA dataset recording (Berlin_LE (33).wav) - Milking Stress
+COW-MILK-028,#347,Maggie #528,Gir,6,Milking Udder Discomfort Call,review,90,3.36,800.0,93.8,0.0,12.54,9.79,77.72,CowRumIA dataset recording (Berlin_LE (34).wav) - Milking Stress
+COW-MILK-029,#348,Ganga #529,Gir,2,Milking Udder Discomfort Call,review,96,3.8,200.8,187.5,0.0,15.0,5.56,78.78,CowRumIA dataset recording (Berlin_LE (35).wav) - Milking Stress
+COW-MILK-030,#349,Yamuna #530,Sahiwal,1,Milking Udder Discomfort Call,review,91,2.0,585.4,609.4,0.8,15.0,4.82,81.1,CowRumIA dataset recording (Berlin_LE (36).wav) - Milking Stress
+COW-MILK-031,#350,Kaveri #531,Guernsey,2,Milking Udder Discomfort Call,review,91,2.36,178.4,140.6,0.63,11.01,7.71,79.64,CowRumIA dataset recording (Berlin_LE (37).wav) - Milking Stress
+COW-MILK-032,#351,Chitra #532,Jersey,5,Milking Udder Discomfort Call,review,95,3.48,139.1,93.8,0.0,15.0,8.01,75.37,CowRumIA dataset recording (Berlin_LE (38).wav) - Milking Stress
+COW-MILK-033,#352,Devaki #533,Holstein Friesian,6,Milking Udder Discomfort Call,review,96,2.04,136.8,93.8,0.0,14.42,9.37,74.42,CowRumIA dataset recording (Berlin_LE (39).wav) - Milking Stress
+COW-MILK-034,#353,Anandi #534,Gir,3,Milking Udder Discomfort Call,review,96,2.12,615.4,609.4,0.0,15.0,7.37,75.06,CowRumIA dataset recording (Berlin_LE (4).wav) - Milking Stress
+COW-MILK-035,#354,Meera #535,Gir,2,Milking Udder Discomfort Call,review,96,3.32,309.7,46.9,0.0,10.52,8.43,78.14,CowRumIA dataset recording (Berlin_LE (40).wav) - Milking Stress
+COW-MILK-036,#355,Durga #536,Sahiwal,4,Milking Udder Discomfort Call,review,97,2.2,200.8,46.9,1.07,12.59,10.37,77.17,CowRumIA dataset recording (Berlin_LE (41).wav) - Milking Stress
+COW-MILK-037,#356,Tulsi #537,Guernsey,5,Milking Udder Discomfort Call,review,95,1.68,222.2,234.4,6.04,9.03,9.03,79.73,CowRumIA dataset recording (Berlin_LE (42).wav) - Milking Stress
+COW-MILK-038,#357,Parvati #538,Guernsey,5,Milking Udder Discomfort Call,review,91,2.24,290.9,281.2,2.29,9.3,8.51,79.04,CowRumIA dataset recording (Berlin_LE (43).wav) - Milking Stress
+COW-MILK-039,#358,Radha #539,Gir,6,Milking Udder Discomfort Call,review,88,2.0,317.9,46.9,0.0,15.0,10.28,77.6,CowRumIA dataset recording (Berlin_LE (44).wav) - Milking Stress
+COW-MILK-040,#359,Lakshmi #540,Jersey,3,Milking Udder Discomfort Call,review,90,2.76,272.7,281.2,0.09,15.0,11.85,78.63,CowRumIA dataset recording (Berlin_LE (45).wav) - Milking Stress
+COW-MILK-041,#360,Bella #541,Sahiwal,1,Milking Udder Discomfort Call,review,94,2.2,303.8,0.0,0.0,14.83,11.6,77.3,CowRumIA dataset recording (Berlin_LE (46).wav) - Milking Stress
+COW-MILK-042,#361,Daisy #542,Jersey,4,Milking Udder Discomfort Call,review,89,2.92,648.6,609.4,1.31,15.0,2.98,85.29,CowRumIA dataset recording (Berlin_LE (47).wav) - Milking Stress
+COW-MILK-043,#362,Molly #543,Gir,1,Milking Udder Discomfort Call,review,91,2.4,106.0,93.8,6.24,15.0,4.08,80.74,CowRumIA dataset recording (Berlin_LE (48).wav) - Milking Stress
+COW-MILK-044,#363,Luna #544,Sahiwal,1,Milking Udder Discomfort Call,review,94,3.24,207.8,609.4,2.85,15.0,3.26,82.9,CowRumIA dataset recording (Berlin_LE (49).wav) - Milking Stress
+COW-MILK-045,#364,Buttercup #545,Guernsey,3,Milking Udder Discomfort Call,review,90,2.2,226.4,234.4,0.23,15.0,7.26,77.35,CowRumIA dataset recording (Berlin_LE (5).wav) - Milking Stress
+COW-MILK-046,#365,Bessie #546,Jersey,6,Milking Udder Discomfort Call,review,92,3.12,211.5,656.2,0.9,15.0,2.81,84.7,CowRumIA dataset recording (Berlin_LE (50).wav) - Milking Stress
+COW-MILK-047,#366,Penny #547,Guernsey,2,Milking Udder Discomfort Call,review,91,3.04,207.8,843.8,3.44,15.0,5.84,80.93,CowRumIA dataset recording (Berlin_LE (51).wav) - Milking Stress
+COW-MILK-048,#367,Ruby #548,Holstein Friesian,1,Milking Udder Discomfort Call,review,94,2.84,210.5,609.4,5.12,15.0,3.99,82.96,CowRumIA dataset recording (Berlin_LE (52).wav) - Milking Stress
+COW-MILK-049,#368,Rosie #549,Holstein Friesian,6,Milking Udder Discomfort Call,review,97,2.72,210.5,609.4,5.09,15.0,4.1,83.0,CowRumIA dataset recording (Berlin_LE (53).wav) - Milking Stress
+COW-MILK-050,#369,Stella #550,Gir,5,Milking Udder Discomfort Call,review,91,2.0,210.5,187.5,3.91,15.0,5.95,79.18,CowRumIA dataset recording (Berlin_LE (54).wav) - Milking Stress
+COW-MILK-051,#370,Chloe #551,Guernsey,1,Milking Udder Discomfort Call,review,89,2.477,657.5,656.2,2.21,11.18,2.97,85.74,CowRumIA dataset recording (Berlin_LE (55).wav) - Milking Stress
+COW-MILK-052,#371,Maggie #552,Guernsey,4,Milking Udder Discomfort Call,review,93,3.36,208.7,187.5,1.94,15.0,7.81,81.46,CowRumIA dataset recording (Berlin_LE (56).wav) - Milking Stress
+COW-MILK-053,#372,Ganga #553,Jersey,1,Milking Udder Discomfort Call,review,94,3.0,209.6,609.4,4.65,14.5,5.29,79.87,CowRumIA dataset recording (Berlin_LE (57).wav) - Milking Stress
+COW-MILK-054,#373,Yamuna #554,Holstein Friesian,1,Milking Udder Discomfort Call,review,90,3.04,255.3,562.5,0.0,15.0,11.91,75.19,CowRumIA dataset recording (Berlin_LE (58).wav) - Milking Stress
+COW-MILK-055,#374,Kaveri #555,Gir,6,Milking Udder Discomfort Call,review,95,3.36,470.6,937.5,0.61,15.0,12.7,74.47,CowRumIA dataset recording (Berlin_LE (59).wav) - Milking Stress
+COW-MILK-056,#375,Chitra #556,Holstein Friesian,6,Milking Udder Discomfort Call,review,95,2.04,225.4,234.4,0.0,15.0,7.98,76.61,CowRumIA dataset recording (Berlin_LE (6).wav) - Milking Stress
+COW-MILK-057,#376,Devaki #557,Sahiwal,4,Milking Udder Discomfort Call,review,92,3.68,475.2,937.5,0.0,15.0,9.45,74.06,CowRumIA dataset recording (Berlin_LE (60).wav) - Milking Stress
+COW-MILK-058,#377,Anandi #558,Sahiwal,3,Milking Udder Discomfort Call,review,88,2.04,378.0,281.2,0.0,15.0,6.02,75.48,CowRumIA dataset recording (Berlin_LE (61).wav) - Milking Stress
+COW-MILK-059,#378,Meera #559,Guernsey,1,Milking Udder Discomfort Call,review,94,1.92,178.4,328.1,2.64,15.0,7.96,76.84,CowRumIA dataset recording (Berlin_LE (62).wav) - Milking Stress
+COW-MILK-060,#379,Durga #560,Sahiwal,3,Milking Udder Discomfort Call,review,97,2.12,375.0,375.0,0.0,15.0,9.62,79.14,CowRumIA dataset recording (Berlin_LE (63).wav) - Milking Stress
+COW-MILK-061,#300,Tulsi #561,Guernsey,5,Milking Udder Discomfort Call,review,93,2.4,287.4,843.8,3.44,15.0,5.35,82.54,CowRumIA dataset recording (Berlin_LE (7).wav) - Milking Stress
+COW-MILK-062,#301,Parvati #562,Sahiwal,4,Milking Udder Discomfort Call,review,88,2.72,284.0,234.4,0.0,15.0,7.03,77.86,CowRumIA dataset recording (Berlin_LE (8).wav) - Milking Stress
+COW-MILK-063,#302,Radha #563,Gir,6,Milking Udder Discomfort Call,review,96,3.56,219.2,234.4,0.0,15.0,8.36,77.23,CowRumIA dataset recording (Berlin_LE (9).wav) - Milking Stress
+COW-MILK-064,#303,Lakshmi #564,Guernsey,4,Milking Udder Discomfort Call,review,89,3.04,186.0,562.5,0.83,15.0,9.09,79.68,CowRumIA dataset recording (Berlin_Watusi_LE (1).wav) - Milking Stress
+COW-MILK-065,#304,Bella #565,Guernsey,5,Milking Udder Discomfort Call,review,90,2.04,60.1,46.9,0.0,3.21,11.72,76.83,CowRumIA dataset recording (Berlin_Watusi_LE (2).wav) - Milking Stress
+COW-MILK-066,#305,Daisy #566,Holstein Friesian,2,Milking Udder Discomfort Call,review,93,1.64,298.1,46.9,0.0,8.39,11.89,78.33,CowRumIA dataset recording (Berlin_Watusi_LE (3).wav) - Milking Stress
+COW-MILK-067,#306,Molly #567,Sahiwal,4,Milking Udder Discomfort Call,review,90,2.12,705.9,46.9,0.0,13.51,12.06,78.33,CowRumIA dataset recording (Berlin_Watusi_LE (4).wav) - Milking Stress
+COW-MILK-068,#307,Luna #568,Gir,1,Milking Udder Discomfort Call,review,94,2.68,204.3,609.4,2.85,15.0,9.13,77.24,CowRumIA dataset recording (Berlin_Watusi_LE.wav) - Milking Stress
+COW-MILK-069,#308,Buttercup #569,Sahiwal,4,Milking Udder Discomfort Call,review,93,1.8,268.2,1593.8,0.0,15.0,13.34,70.88,CowRumIA dataset recording (Inicial_LE.wav) - Milking Stress
+COW-MILK-070,#309,Bessie #570,Gir,1,Milking Udder Discomfort Call,review,92,2.88,218.2,187.5,1.22,7.58,10.36,77.68,CowRumIA dataset recording (Posta_LE (1).wav) - Milking Stress
+COW-MILK-071,#310,Penny #571,Gir,2,Milking Udder Discomfort Call,review,92,2.92,73.4,140.6,2.69,7.51,8.92,76.58,CowRumIA dataset recording (Posta_LE (10).wav) - Milking Stress
+COW-MILK-072,#311,Ruby #572,Gir,6,Milking Udder Discomfort Call,review,93,2.76,105.3,187.5,0.0,11.98,7.9,79.61,CowRumIA dataset recording (Posta_LE (11).wav) - Milking Stress
+COW-MILK-073,#312,Rosie #573,Gir,6,Milking Udder Discomfort Call,review,97,2.16,186.0,187.5,5.92,15.0,7.59,80.02,CowRumIA dataset recording (Posta_LE (12).wav) - Milking Stress
+COW-MILK-074,#313,Stella #574,Holstein Friesian,4,Milking Udder Discomfort Call,review,96,2.36,192.0,187.5,1.28,8.98,8.85,79.66,CowRumIA dataset recording (Posta_LE (13).wav) - Milking Stress
+COW-MILK-075,#314,Chloe #575,Holstein Friesian,5,Milking Udder Discomfort Call,review,89,2.12,266.7,281.2,8.55,15.0,8.28,80.19,CowRumIA dataset recording (Posta_LE (14).wav) - Milking Stress
+COW-MILK-076,#315,Maggie #576,Gir,3,Milking Udder Discomfort Call,review,90,3.12,144.1,140.6,0.0,15.0,10.51,79.02,CowRumIA dataset recording (Posta_LE (15).wav) - Milking Stress
+COW-MILK-077,#316,Ganga #577,Guernsey,4,Milking Udder Discomfort Call,review,97,3.16,110.9,328.1,2.26,10.1,7.41,80.78,CowRumIA dataset recording (Posta_LE (16).wav) - Milking Stress
+COW-MILK-078,#317,Yamuna #578,Holstein Friesian,5,Milking Udder Discomfort Call,review,96,2.96,282.4,281.2,0.0,15.0,6.98,78.06,CowRumIA dataset recording (Posta_LE (17).wav) - Milking Stress
+COW-MILK-079,#318,Kaveri #579,Holstein Friesian,3,Milking Udder Discomfort Call,review,93,2.64,114.3,93.8,2.16,9.98,8.29,77.53,CowRumIA dataset recording (Posta_LE (18).wav) - Milking Stress
+COW-MILK-080,#319,Chitra #580,Jersey,4,Milking Udder Discomfort Call,review,89,2.76,171.4,46.9,0.0,5.93,9.62,78.13,CowRumIA dataset recording (Posta_LE (19).wav) - Milking Stress
+COW-MILK-081,#320,Devaki #581,Jersey,4,Milking Udder Discomfort Call,review,94,3.36,116.2,328.1,3.77,10.77,6.55,80.73,CowRumIA dataset recording (Posta_LE (2).wav) - Milking Stress
+COW-MILK-082,#321,Anandi #582,Sahiwal,3,Milking Udder Discomfort Call,review,88,3.56,315.8,328.1,3.58,13.64,6.12,79.6,CowRumIA dataset recording (Posta_LE (20).wav) - Milking Stress
+COW-MILK-083,#322,Meera #583,Gir,6,Milking Udder Discomfort Call,review,96,3.32,119.1,234.4,4.47,9.08,7.08,80.05,CowRumIA dataset recording (Posta_LE (3).wav) - Milking Stress
+COW-MILK-084,#323,Durga #584,Sahiwal,2,Milking Udder Discomfort Call,review,90,3.04,120.0,375.0,6.33,10.76,7.57,79.45,CowRumIA dataset recording (Posta_LE (4).wav) - Milking Stress
+COW-MILK-085,#324,Tulsi #585,Sahiwal,4,Milking Udder Discomfort Call,review,93,3.0,126.0,375.0,7.86,12.39,7.79,79.63,CowRumIA dataset recording (Posta_LE (5).wav) - Milking Stress
+COW-MILK-086,#325,Parvati #586,Gir,6,Milking Udder Discomfort Call,review,97,3.28,116.8,328.1,5.1,11.57,6.58,80.84,CowRumIA dataset recording (Posta_LE (6).wav) - Milking Stress
+COW-MILK-087,#326,Radha #587,Guernsey,5,Milking Udder Discomfort Call,review,95,2.4,277.5,0.0,0.0,7.39,12.97,76.42,CowRumIA dataset recording (Posta_LE (7).wav) - Milking Stress
+COW-MILK-088,#327,Lakshmi #588,Holstein Friesian,6,Milking Udder Discomfort Call,review,88,1.68,358.2,328.1,1.32,13.63,11.02,79.42,CowRumIA dataset recording (Posta_LE (8).wav) - Milking Stress
+COW-MILK-089,#328,Bella #589,Holstein Friesian,4,Milking Udder Discomfort Call,review,88,2.8,393.4,328.1,0.0,12.61,9.68,77.44,CowRumIA dataset recording (Posta_LE (9).wav) - Milking Stress
+COW-MILK-090,#329,Daisy #590,Guernsey,4,Milking Udder Discomfort Call,review,96,1.92,272.7,281.2,0.0,15.0,11.72,78.25,CowRumIA dataset recording (Posta_Madre_LE (1).wav) - Milking Stress
+COW-MILK-091,#330,Molly #591,Jersey,6,Milking Udder Discomfort Call,review,89,2.48,260.9,234.4,4.68,15.0,15.26,75.2,CowRumIA dataset recording (Posta_Madre_LE (10).wav) - Milking Stress
+COW-MILK-092,#331,Luna #592,Holstein Friesian,6,Milking Udder Discomfort Call,review,94,3.12,277.5,281.2,0.0,10.56,11.51,77.29,CowRumIA dataset recording (Posta_Madre_LE (11).wav) - Milking Stress
+COW-MILK-093,#332,Buttercup #593,Gir,5,Milking Udder Discomfort Call,review,91,3.44,280.7,281.2,0.0,6.13,11.46,75.21,CowRumIA dataset recording (Posta_Madre_LE (12).wav) - Milking Stress
+COW-MILK-094,#333,Bessie #594,Holstein Friesian,3,Milking Udder Discomfort Call,review,95,2.12,282.4,46.9,0.0,8.17,14.43,75.51,CowRumIA dataset recording (Posta_Madre_LE (13).wav) - Milking Stress
+COW-MILK-095,#334,Penny #595,Sahiwal,5,Milking Udder Discomfort Call,review,88,3.92,124.4,234.4,0.0,9.08,5.88,83.47,CowRumIA dataset recording (Posta_Madre_LE (14).wav) - Milking Stress
+COW-MILK-096,#335,Ruby #596,Gir,5,Milking Udder Discomfort Call,review,94,2.56,111.9,328.1,0.0,12.37,8.22,79.17,CowRumIA dataset recording (Posta_Madre_LE (15).wav) - Milking Stress
+COW-MILK-097,#336,Rosie #597,Holstein Friesian,5,Milking Udder Discomfort Call,review,91,2.04,800.0,46.9,0.0,14.37,12.05,77.26,CowRumIA dataset recording (Posta_Madre_LE (16).wav) - Milking Stress
+COW-MILK-098,#337,Stella #598,Holstein Friesian,2,Milking Udder Discomfort Call,review,97,2.48,266.7,46.9,0.0,9.89,12.7,75.73,CowRumIA dataset recording (Posta_Madre_LE (17).wav) - Milking Stress
+COW-MILK-099,#338,Chloe #599,Gir,5,Milking Udder Discomfort Call,review,97,2.64,246.2,46.9,0.0,4.54,12.91,75.16,CowRumIA dataset recording (Posta_Madre_LE (18).wav) - Milking Stress
+COW-MILK-100,#339,Maggie #600,Jersey,5,Milking Udder Discomfort Call,review,95,2.28,287.4,281.2,0.74,15.0,13.69,77.47,CowRumIA dataset recording (Posta_Madre_LE (19).wav) - Milking Stress
+COW-MILK-101,#340,Ganga #601,Sahiwal,4,Milking Udder Discomfort Call,review,93,2.08,85.3,187.5,2.41,15.0,9.12,81.79,CowRumIA dataset recording (Posta_Madre_LE (2).wav) - Milking Stress
+COW-MILK-102,#341,Yamuna #602,Holstein Friesian,2,Milking Udder Discomfort Call,review,88,3.2,275.9,234.4,0.0,4.87,12.36,75.12,CowRumIA dataset recording (Posta_Madre_LE (20).wav) - Milking Stress
+COW-MILK-103,#342,Kaveri #603,Holstein Friesian,1,Milking Udder Discomfort Call,review,92,2.16,266.7,0.0,0.0,9.79,12.73,76.6,CowRumIA dataset recording (Posta_Madre_LE (21).wav) - Milking Stress
+COW-MILK-104,#343,Chitra #604,Sahiwal,4,Milking Udder Discomfort Call,review,95,2.2,311.7,281.2,0.0,15.0,13.68,76.67,CowRumIA dataset recording (Posta_Madre_LE (22).wav) - Milking Stress
+COW-MILK-105,#344,Devaki #605,Holstein Friesian,3,Milking Udder Discomfort Call,review,96,2.28,290.9,46.9,0.0,15.0,13.79,75.65,CowRumIA dataset recording (Posta_Madre_LE (23).wav) - Milking Stress
+COW-MILK-106,#345,Anandi #606,Guernsey,4,Milking Udder Discomfort Call,review,93,2.04,296.3,609.4,0.0,15.0,13.47,76.24,CowRumIA dataset recording (Posta_Madre_LE (3).wav) - Milking Stress
+COW-MILK-107,#346,Meera #607,Holstein Friesian,3,Milking Udder Discomfort Call,review,89,2.0,358.2,328.1,0.0,15.0,11.4,75.03,CowRumIA dataset recording (Posta_Madre_LE (4).wav) - Milking Stress
+COW-MILK-108,#347,Durga #608,Sahiwal,2,Milking Udder Discomfort Call,review,91,2.64,268.2,281.2,5.7,9.6,6.17,81.51,CowRumIA dataset recording (Posta_Madre_LE (5).wav) - Milking Stress
+COW-MILK-109,#348,Tulsi #609,Holstein Friesian,6,Milking Udder Discomfort Call,review,91,2.48,277.5,281.2,3.37,15.0,13.02,73.85,CowRumIA dataset recording (Posta_Madre_LE (6).wav) - Milking Stress
+COW-MILK-110,#349,Parvati #610,Jersey,5,Milking Udder Discomfort Call,review,97,2.64,260.9,234.4,3.91,15.0,16.93,71.91,CowRumIA dataset recording (Posta_Madre_LE (7).wav) - Milking Stress
+COW-MILK-111,#350,Radha #611,Sahiwal,4,Milking Udder Discomfort Call,review,90,3.04,269.7,281.2,3.61,9.13,10.36,78.93,CowRumIA dataset recording (Posta_Madre_LE (8).wav) - Milking Stress
+COW-MILK-112,#351,Lakshmi #612,Jersey,3,Milking Udder Discomfort Call,review,90,2.56,262.3,234.4,1.34,6.67,12.3,74.99,CowRumIA dataset recording (Posta_Madre_LE (9).wav) - Milking Stress
+COW-MILK-113,#352,Bella #613,Holstein Friesian,4,Milking Udder Discomfort Call,review,88,2.36,102.1,93.8,0.0,12.14,10.19,76.6,CowRumIA dataset recording (Posta_Madre_LE.wav) - Milking Stress
+COW-MILK-114,#353,Daisy #614,Sahiwal,2,Milking Udder Discomfort Call,review,88,3.444,287.4,562.5,0.0,15.0,9.71,78.59,CowRumIA dataset recording (Posta_Watusi_LE (1).wav) - Milking Stress
+COW-MILK-115,#354,Molly #615,Gir,2,Milking Udder Discomfort Call,review,94,2.58,289.2,890.6,0.0,15.0,9.38,75.32,CowRumIA dataset recording (Posta_Watusi_LE (10).wav) - Milking Stress
+COW-MILK-116,#355,Luna #616,Gir,2,Milking Udder Discomfort Call,review,92,3.396,287.4,281.2,0.0,14.55,8.31,80.39,CowRumIA dataset recording (Posta_Watusi_LE (11).wav) - Milking Stress
+COW-MILK-117,#356,Buttercup #617,Guernsey,5,Milking Udder Discomfort Call,review,89,3.04,277.5,515.6,0.0,13.7,10.0,79.24,CowRumIA dataset recording (Posta_Watusi_LE (2).wav) - Milking Stress
+COW-MILK-118,#357,Bessie #618,Gir,1,Milking Udder Discomfort Call,review,96,3.64,95.8,281.2,0.0,15.0,9.54,76.41,CowRumIA dataset recording (Posta_Watusi_LE (3).wav) - Milking Stress
+COW-MILK-119,#358,Penny #619,Holstein Friesian,2,Milking Udder Discomfort Call,review,91,3.96,282.4,515.6,0.0,15.0,7.55,76.69,CowRumIA dataset recording (Posta_Watusi_LE (4).wav) - Milking Stress
+COW-MILK-120,#359,Ruby #620,Sahiwal,2,Milking Udder Discomfort Call,review,90,3.64,275.9,468.8,0.0,15.0,6.63,79.73,CowRumIA dataset recording (Posta_Watusi_LE (5).wav) - Milking Stress
+COW-MILK-121,#360,Rosie #621,Gir,3,Milking Udder Discomfort Call,review,92,4.04,279.1,281.2,0.0,15.0,11.75,79.78,CowRumIA dataset recording (Posta_Watusi_LE (6).wav) - Milking Stress
+COW-MILK-122,#361,Stella #622,Holstein Friesian,4,Milking Udder Discomfort Call,review,89,3.96,271.2,281.2,3.36,11.35,8.76,78.41,CowRumIA dataset recording (Posta_Watusi_LE (7).wav) - Milking Stress
+COW-MILK-123,#362,Chloe #623,Gir,3,Milking Udder Discomfort Call,review,97,4.36,289.2,281.2,1.8,14.14,6.08,79.22,CowRumIA dataset recording (Posta_Watusi_LE (8).wav) - Milking Stress
+COW-MILK-124,#363,Maggie #624,Holstein Friesian,2,Milking Udder Discomfort Call,review,94,1.986,279.1,281.2,5.29,8.93,7.77,84.85,CowRumIA dataset recording (Posta_Watusi_LE (9).wav) - Milking Stress
