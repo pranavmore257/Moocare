@@ -83,6 +83,22 @@ Build the backend:
 npm --prefix backend run build
 ```
 
+## Deploy with Render
+
+Deploy the backend as a Render Web Service from the repository root with:
+
+- Build command: `npm install --prefix backend --include=dev && npm run build --prefix backend`
+- Start command: `npm run start --prefix backend`
+- Environment variables: `MONGODB_URI` (Atlas URI) and `CLIENT_ORIGIN` (the public frontend origin)
+
+Deploy the frontend as a Render Static Site from the repository root with:
+
+- Build command: `npm install && npm run build`
+- Publish directory: `dist`
+- Environment variable: `VITE_API_URL` set to the backend origin, such as `https://moocare-api.onrender.com`
+
+Set `CLIENT_ORIGIN` to the exact static-site origin, including `https://` and without a trailing slash. The frontend uses the Vite development proxy for local `/api` requests and `VITE_API_URL` for deployed requests.
+
 ## Dataset import
 
 The backend includes sample CSV and JSON datasets in `backend/data/`. To import the sample CSV into MongoDB, run this from the backend directory:
