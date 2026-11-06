@@ -1,4 +1,5 @@
 import type { Cattle, Scan, Alert } from '../types';
+import { apiUrl } from '../lib/api';
 
 // ============================================
 // Reactive Store with MongoDB + LocalStorage Sync
@@ -156,8 +157,6 @@ export function addAlert(alert: Omit<Alert, 'id'>): Alert {
 
 // ========= MongoDB Backend Sync =========
 
-const API_BASE = '/api';
-
 export interface BackendConnectionState {
   status: 'connected' | 'offline' | 'checking';
   connected: boolean;
@@ -180,7 +179,7 @@ export function getBackendConnectionState(): BackendConnectionState {
 
 export async function checkBackendHealth(): Promise<BackendConnectionState> {
   try {
-    const res = await fetch(`${API_BASE}/health`, { signal: AbortSignal.timeout(3000) });
+    const res = await fetch(apiUrl('/api/health'), { signal: AbortSignal.timeout(3000) });
     if (res.ok) {
       const json = await res.json();
       _backendState = {
@@ -212,7 +211,7 @@ export async function checkBackendHealth(): Promise<BackendConnectionState> {
 
 export async function syncCattleToBackend(cow: Cattle) {
   try {
-    const res = await fetch(`${API_BASE}/cattle`, {
+    const res = await fetch(apiUrl('/api/cattle'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -242,7 +241,7 @@ export async function syncCattleToBackend(cow: Cattle) {
 
 export async function fetchCattleFromBackend() {
   try {
-    const res = await fetch(`${API_BASE}/cattle`);
+    const res = await fetch(apiUrl('/api/cattle'));
     if (!res.ok) return;
     const json = await res.json();
     if (json.success && Array.isArray(json.data)) {
@@ -290,7 +289,7 @@ export async function fetchCattleFromBackend() {
 
 export async function fetchScansFromBackend() {
   try {
-    const res = await fetch(`${API_BASE}/scans?limit=50`);
+    const res = await fetch(apiUrl('/api/scans?limit=50'));
     if (!res.ok) return;
     const json = await res.json();
     if (json.success && Array.isArray(json.data)) {
@@ -327,7 +326,7 @@ export async function fetchScansFromBackend() {
 
 export async function fetchAlertsFromBackend() {
   try {
-    const res = await fetch(`${API_BASE}/alerts`);
+    const res = await fetch(apiUrl('/api/alerts'));
     if (!res.ok) return;
     const json = await res.json();
     if (json.success && Array.isArray(json.data)) {
@@ -375,7 +374,7 @@ export async function saveScanToBackend(scanInput: {
   features?: any;
 }) {
   try {
-    const res = await fetch(`${API_BASE}/scans`, {
+    const res = await fetch(apiUrl('/api/scans'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(scanInput),
@@ -427,7 +426,7 @@ export async function resolveAlertInBackend(alertId: string) {
   }
 
   try {
-    const res = await fetch(`${API_BASE}/alerts/${alertId}/resolve`, {
+    const res = await fetch(apiUrl(`/api/alerts/${alertId}/resolve`), {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ resolvedBy: 'Farmer' }),
@@ -447,7 +446,7 @@ export async function requestVetReviewInBackend(data: {
   priority?: 'normal' | 'urgent';
 }) {
   try {
-    const res = await fetch(`${API_BASE}/vet-reviews`, {
+    const res = await fetch(apiUrl('/api/vet-reviews'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),

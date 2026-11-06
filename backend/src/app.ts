@@ -37,7 +37,7 @@ export function createApp(): Application {
         if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(origin) || allowedOrigins.includes('*')) {
           callback(null, true);
         } else {
-          callback(null, true); // Dev-friendly fallback
+          callback(null, false);
         }
       },
       credentials: true,

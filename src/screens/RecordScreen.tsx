@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import type { ScreenProps, HealthStatus } from '../types';
 import { CATTLE, subscribe } from '../data/cattle';
+import { apiUrl } from '../lib/api';
 import StatusBadge from '../components/StatusBadge';
 
 type RecordState = 'idle' | 'recording' | 'processing' | 'complete' | 'failed' | 'no_signal';
@@ -232,7 +233,7 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
       formData.append('cattleId', cow.tagId.replace('#', '') || cow.id);
       formData.append('duration', String(Math.round(elapsed)));
 
-      const res = await fetch('/api/scans/audio-scan', {
+      const res = await fetch(apiUrl('/api/scans/audio-scan'), {
         method: 'POST',
         body: formData,
       });
@@ -279,7 +280,7 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
       formData.append('cattleId', cow.tagId.replace('#', '') || cow.id);
       formData.append('duration', '3.5');
 
-      const res = await fetch('/api/scans/audio-scan', {
+      const res = await fetch(apiUrl('/api/scans/audio-scan'), {
         method: 'POST',
         body: formData,
       });
