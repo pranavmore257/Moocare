@@ -74,7 +74,22 @@ export class AudioAnalysisService {
         };
       } catch (err) {
         console.error('[AudioAnalysisService] Python AI inference failed:', err);
-        throw new Error('AI model inference failed; no model-based analysis was produced.');
+        const output = err instanceof Error && 'stdout' in err
+          ? (err as Error & { stdout?: string | Buffer }).stdout
+          : undefined;
+        const outputText = Buffer.isBuffer(output) ? output.toString('utf-8') : output;
+        let failureReason: string | undefined;
+        if (typeof outputText === 'string' && outputText.trim()) {
+          try {
+            const result = JSON.parse(outputText) as { error?: unknown };
+            if (typeof result.error === 'string') failureReason = result.error;
+          } catch {
+            failureReason = undefined;
+          }
+        }
+        throw new Error(
+          failureReason || 'AI model inference failed; no model-based analysis was produced.',
+        );
       }
     }
 

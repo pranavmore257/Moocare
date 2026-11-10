@@ -14,6 +14,50 @@ const MIN_AMPLITUDE_THRESHOLD = 0.01;
 // Minimum % of recording that must have signal above threshold to be "valid"
 const MIN_SIGNAL_FRACTION = 0.25;
 
+async function convertAudioToWav(audio: Blob): Promise<Blob> {
+  const audioContext = new AudioContext();
+  try {
+    const decoded = await audioContext.decodeAudioData(await audio.arrayBuffer());
+    const channelCount = Math.min(decoded.numberOfChannels, 2);
+    const frameCount = decoded.length;
+    const bytesPerSample = 2;
+    const blockAlign = channelCount * bytesPerSample;
+    const wavBuffer = new ArrayBuffer(44 + frameCount * blockAlign);
+    const view = new DataView(wavBuffer);
+    const writeString = (offset: number, value: string) => {
+      for (let i = 0; i < value.length; i++) view.setUint8(offset + i, value.charCodeAt(i));
+    };
+
+    writeString(0, 'RIFF');
+    view.setUint32(4, 36 + frameCount * blockAlign, true);
+    writeString(8, 'WAVE');
+    writeString(12, 'fmt ');
+    view.setUint32(16, 16, true);
+    view.setUint16(20, 1, true);
+    view.setUint16(22, channelCount, true);
+    view.setUint32(24, decoded.sampleRate, true);
+    view.setUint32(28, decoded.sampleRate * blockAlign, true);
+    view.setUint16(32, blockAlign, true);
+    view.setUint16(34, 16, true);
+    writeString(36, 'data');
+    view.setUint32(40, frameCount * blockAlign, true);
+
+    const channels = Array.from({ length: channelCount }, (_, index) => decoded.getChannelData(index));
+    let offset = 44;
+    for (let frame = 0; frame < frameCount; frame++) {
+      for (let channel = 0; channel < channelCount; channel++) {
+        const sample = Math.max(-1, Math.min(1, channels[channel][frame]));
+        view.setInt16(offset, sample < 0 ? sample * 0x8000 : sample * 0x7fff, true);
+        offset += bytesPerSample;
+      }
+    }
+
+    return new Blob([wavBuffer], { type: 'audio/wav' });
+  } finally {
+    await audioContext.close();
+  }
+}
+
 export default function RecordScreen({ navigate, options }: ScreenProps) {
   const [cattleId, setCattleId] = useState(options.cattleId || '1');
   const [state, setState] = useState<RecordState>('idle');
@@ -48,6 +92,7 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const mediaStreamRef = useRef<MediaStream | null>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
+  const isStoppingRef = useRef(false);
   const audioContextRef = useRef<AudioContext | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
   const analyserRef = useRef<AnalyserNode | null>(null);
@@ -142,6 +187,7 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
       ].find(type => MediaRecorder.isTypeSupported(type));
       const recorder = new MediaRecorder(stream, supportedMimeType ? { mimeType: supportedMimeType } : undefined);
       mediaRecorderRef.current = recorder;
+      isStoppingRef.current = false;
       recorder.ondataavailable = (e) => {
         if (e.data.size > 0) audioChunksRef.current.push(e.data);
       };
@@ -190,8 +236,14 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
   };
 
   const stopRecording = () => {
+    if (isStoppingRef.current) return;
+    isStoppingRef.current = true;
     if (intervalRef.current) clearInterval(intervalRef.current);
 
+    const recorder = mediaRecorderRef.current;
+    const stopped = recorder && recorder.state !== 'inactive'
+      ? new Promise<void>(resolve => recorder.addEventListener('stop', () => resolve(), { once: true }))
+      : Promise.resolve();
     if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
       mediaRecorderRef.current.stop();
     }
@@ -210,26 +262,27 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
 
     // We have real audio — send to backend
     setState('processing');
-    processRecordedAudio();
+    void processRecordedAudio(stopped);
   };
 
-  const processRecordedAudio = async () => {
+  const processRecordedAudio = async (recordingStopped: Promise<void>) => {
+    await recordingStopped;
     const chunks = audioChunksRef.current;
     if (chunks.length === 0) {
-      setState('no_signal');
+      setRecordingError('The browser did not provide any recorded audio data. Please try recording again.');
+      setState('complete');
       return;
     }
 
     const mimeType = mediaRecorderRef.current?.mimeType || 'audio/webm';
-    const extension = mimeType.includes('mp4') ? 'mp4' : mimeType.includes('ogg') ? 'ogg' : 'webm';
-    const blob = new Blob(chunks, { type: mimeType });
-    const audioUrl = URL.createObjectURL(blob);
+    const recordedBlob = new Blob(chunks, { type: mimeType });
+    const audioUrl = URL.createObjectURL(recordedBlob);
     setUploadedAudioUrl(audioUrl);
 
-    // Try backend
     try {
+      const wavBlob = await convertAudioToWav(recordedBlob);
       const formData = new FormData();
-      formData.append('audio', blob, `mic_recording.${extension}`);
+      formData.append('audio', wavBlob, 'mic_recording.wav');
       formData.append('cattleId', cow.tagId.replace('#', '') || cow.id);
       formData.append('duration', String(Math.round(elapsed)));
 
@@ -238,29 +291,31 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
         body: formData,
       });
 
-      if (res.ok) {
-        const payload = await res.json();
-        if (payload.data?.scan) {
-          const sc = payload.data.scan;
-          if (sc.audioUrl) setUploadedAudioUrl(sc.audioUrl);
-          setServerAnalysis({
-            status: sc.status as HealthStatus,
-            confidence: sc.confidence,
-            breakdown: sc.breakdown,
-            acousticFeatures: sc.acousticFeatures,
-            aiInsights: sc.aiInsights,
-          });
-        } else {
-          setServerAnalysis(null); // will show result but clearly labeled as local
-        }
-      } else {
-        setServerAnalysis(null);
+      const payload = await res.json().catch(() => null);
+      if (!res.ok) {
+        throw new Error(payload?.message || `Audio analysis failed (HTTP ${res.status}).`);
       }
-    } catch {
-      setServerAnalysis(null);
-    }
+      if (!payload?.data?.scan) {
+        throw new Error('The backend response did not include an analysis result.');
+      }
 
-    setState('complete');
+      const sc = payload.data.scan;
+      if (sc.audioUrl) setUploadedAudioUrl(apiUrl(sc.audioUrl));
+      setServerAnalysis({
+        status: sc.status as HealthStatus,
+        confidence: sc.confidence,
+        breakdown: sc.breakdown,
+        acousticFeatures: sc.acousticFeatures,
+        aiInsights: sc.aiInsights,
+      });
+    } catch (error) {
+      console.error('[RecordScreen] Recorded audio analysis failed:', error);
+      setRecordingError(error instanceof Error ? error.message : 'Could not analyze the recording. Check the backend and try again.');
+      setServerAnalysis(null);
+    } finally {
+      setState('complete');
+      isStoppingRef.current = false;
+    }
   };
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -270,13 +325,15 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
     setUploadedFile(file);
     const audioUrl = URL.createObjectURL(file);
     setUploadedAudioUrl(audioUrl);
-    setState('complete');
+    setState('processing');
     setElapsed(file.name.includes('Berlin') ? 2.0 : 3.4);
     setIsUploading(true);
+    setRecordingError('');
 
     try {
+      const wavFile = await convertAudioToWav(file);
       const formData = new FormData();
-      formData.append('audio', file);
+      formData.append('audio', wavFile, `${file.name.replace(/\.[^.]+$/, '')}.wav`);
       formData.append('cattleId', cow.tagId.replace('#', '') || cow.id);
       formData.append('duration', '3.5');
 
@@ -285,49 +342,30 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
         body: formData,
       });
 
-      if (res.ok) {
-        const payload = await res.json();
-        if (payload.data?.scan) {
-          const sc = payload.data.scan;
-          if (sc.audioUrl) setUploadedAudioUrl(sc.audioUrl);
-          setServerAnalysis({
-            status: sc.status as HealthStatus,
-            confidence: sc.confidence,
-            breakdown: sc.breakdown,
-            acousticFeatures: sc.acousticFeatures,
-            aiInsights: sc.aiInsights,
-          });
-        } else {
-          fallbackHeuristic(file.name);
-        }
-      } else {
-        fallbackHeuristic(file.name);
+      const payload = await res.json().catch(() => null);
+      if (!res.ok) {
+        throw new Error(payload?.message || `Audio analysis failed (HTTP ${res.status}).`);
       }
-    } catch {
-      fallbackHeuristic(file.name);
+      if (!payload?.data?.scan) {
+        throw new Error('The backend response did not include an analysis result.');
+      }
+
+      const sc = payload.data.scan;
+      if (sc.audioUrl) setUploadedAudioUrl(apiUrl(sc.audioUrl));
+      setServerAnalysis({
+        status: sc.status as HealthStatus,
+        confidence: sc.confidence,
+        breakdown: sc.breakdown,
+        acousticFeatures: sc.acousticFeatures,
+        aiInsights: sc.aiInsights,
+      });
+    } catch (error) {
+      console.error('[RecordScreen] Uploaded audio analysis failed:', error);
+      setRecordingError(error instanceof Error ? error.message : 'Could not analyze the audio file. Check the backend and try again.');
+      setServerAnalysis(null);
     } finally {
       setIsUploading(false);
-    }
-  };
-
-  const fallbackHeuristic = (filename: string) => {
-    const lower = filename.toLowerCase();
-    if (lower.includes('posta') || lower.includes('estres') || lower.includes('distress') || lower.includes('crit')) {
-      setServerAnalysis({
-        status: 'critical',
-        confidence: 99,
-        breakdown: { normal: 0, stress: 5, distress: 95 },
-        acousticFeatures: { meanPitchHz: 510, peakFrequencyHz: 515, harmonicToNoiseRatio: 1.8, jitterPct: 15.0, shimmerPct: 8.6, spectralCentroid: 1765, decibels: 78 },
-        aiInsights: 'High-frequency acoustic distress shriek detected. Severe jitter and diminished HNR require immediate veterinary attention.'
-      });
-    } else {
-      setServerAnalysis({
-        status: 'healthy',
-        confidence: 96,
-        breakdown: { normal: 96, stress: 4, distress: 0 },
-        acousticFeatures: { meanPitchHz: 110, peakFrequencyHz: 105, harmonicToNoiseRatio: 19.5, jitterPct: 1.2, shimmerPct: 3.1, spectralCentroid: 720, decibels: 72 },
-        aiInsights: 'Normal relaxed bovine vocalization. Harmonic-to-noise ratio is solid and pitch is within healthy homeostasis.'
-      });
+      setState('complete');
     }
   };
 
@@ -344,6 +382,7 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
 
   const resetAll = () => {
     stopMic();
+    isStoppingRef.current = false;
     setElapsed(0);
     setState('idle');
     setRecordingError('');
@@ -443,7 +482,7 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
             {state === 'idle' && !uploadedFile && 'Position microphone 1–2 m from the animal, then record'}
             {state === 'recording' && `🔴 Recording... hold still ${micLevel > 0.1 ? '· Signal detected ✓' : '· Listening for sound…'}`}
             {state === 'processing' && '🧠 Processing audio with AI model…'}
-            {state === 'complete' && uploadedFile && 'Audio file loaded and processed by AI'}
+            {state === 'complete' && uploadedFile && (serverAnalysis ? 'Audio file analyzed by AI' : 'Audio file loaded')}
             {state === 'complete' && !uploadedFile && '✅ Recording captured and analyzed'}
             {state === 'no_signal' && '⚠️ No cattle audio detected — only silence or ambient noise recorded'}
             {state === 'failed' && '❌ Could not access the microphone'}
@@ -619,11 +658,11 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
         )}
 
         {/* Waiting for backend result */}
-        {state === 'complete' && !serverAnalysis && !uploadedFile && (
+        {state === 'complete' && !serverAnalysis && (
           <div className="bg-white rounded-2xl p-5 text-center shadow-sm">
             <div className="text-amber-600 font-semibold text-sm mb-1">⚠️ Backend Analysis Unavailable</div>
             <p className="text-xs text-gray-500 leading-relaxed">
-              The recording was captured but the AI backend did not return a result. Check that the backend server is running on :5000 and try uploading an audio file instead.
+              {recordingError || 'The audio was captured, but the AI backend did not return an analysis. Confirm the backend is running on :5000 and that its Python model dependencies are installed, then try again.'}
             </p>
           </div>
         )}
@@ -662,7 +701,7 @@ export default function RecordScreen({ navigate, options }: ScreenProps) {
               'Position the microphone 1–2 metres from the animal for best signal quality',
               'The app measures live mic amplitude — you must have a clear cattle vocalisation',
               'If the signal bar stays grey, the animal is not making sound — wait or reposition',
-              'Uploading a .WAV file from the CowRumIA dataset will always trigger full backend analysis',
+              'Recorded and uploaded audio is converted to WAV before the backend analyzes it',
               'At least 25% of the recording must contain above-threshold audio to proceed',
             ].map((tip, i) => (
               <div key={i} className="flex items-start gap-3 py-3 border-t border-gray-50 first:border-0">
