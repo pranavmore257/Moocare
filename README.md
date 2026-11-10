@@ -87,7 +87,7 @@ npm --prefix backend run build
 
 Deploy the backend as a Render Web Service using the Docker runtime:
 
-- Dockerfile path: `backend/Dockerfile`
+- Dockerfile path: `Dockerfile` (repository root)
 - Docker build context: repository root (`.`)
 - Leave the Docker command override empty; the image starts the API automatically.
 - Environment variables: `MONGODB_URI` (Atlas URI) and `CLIENT_ORIGIN` (the public frontend origin)
