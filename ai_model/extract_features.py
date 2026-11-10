@@ -16,8 +16,6 @@ import numpy as np
 import scipy.io.wavfile as wav
 import scipy.signal as signal
 from scipy.fft import dct
-import pandas as pd
-from tqdm import tqdm
 
 MODEL_DIR = Path(__file__).resolve().parent
 DATASET_ROOT = Path(os.environ.get("COWRUMIA_DATASET_ROOT", MODEL_DIR.parent / "CowRumIA-Dataset" / "CowRumIA-Dataset"))
@@ -227,6 +225,8 @@ def extract_audio_features(wav_path):
     return features
 
 def process_dataset():
+    import pandas as pd
+
     print(f"Scanning dataset from: {DATASET_ROOT}")
     records = []
     

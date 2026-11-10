@@ -85,11 +85,14 @@ npm --prefix backend run build
 
 ## Deploy with Render
 
-Deploy the backend as a Render Web Service from the repository root with:
+Deploy the backend as a Render Web Service using the Docker runtime:
 
-- Build command: `npm install --prefix backend --include=dev && npm run build --prefix backend`
-- Start command: `npm run start --prefix backend`
+- Dockerfile path: `backend/Dockerfile`
+- Docker build context: repository root (`.`)
+- Leave the Docker command override empty; the image starts the API automatically.
 - Environment variables: `MONGODB_URI` (Atlas URI) and `CLIENT_ORIGIN` (the public frontend origin)
+
+The backend image installs Python and the XGBoost inference dependencies alongside Node.js. Do not use the old native Node build command for the backend; it does not install the Python model dependencies.
 
 Deploy the frontend as a Render Static Site from the repository root with:
 

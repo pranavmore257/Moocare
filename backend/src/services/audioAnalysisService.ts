@@ -74,6 +74,12 @@ export class AudioAnalysisService {
         };
       } catch (err) {
         console.error('[AudioAnalysisService] Python AI inference failed:', err);
+        const errorCode = err instanceof Error && 'code' in err ? err.code : undefined;
+        if (errorCode === 'ENOENT') {
+          throw new Error(
+            'Python inference runtime was not found. Deploy the backend with its Docker configuration.',
+          );
+        }
         const output = err instanceof Error && 'stdout' in err
           ? (err as Error & { stdout?: string | Buffer }).stdout
           : undefined;

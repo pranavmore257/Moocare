@@ -1,8 +1,4 @@
-joblib
-numpy
+-r requirements-inference.txt
 pandas
-scikit-learn
-scipy
 tqdm
-xgboost
 torch
